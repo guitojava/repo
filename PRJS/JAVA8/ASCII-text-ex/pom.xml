@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2018. UnifiedPost, SA. http://www.unifiedpost.com
+  ~ This software is the proprietary information of UnifiedPost, SA.
+  ~ Use is subject to license terms.
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>leondjdev</groupId>
+    <artifactId>esoda</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+    <dependency>
+        <groupId>com.github.lalyos</groupId>
+        <artifactId>jfiglet</artifactId>
+        <version>0.0.3</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.googlecode.lanterna</groupId>
+        <artifactId>lanterna</artifactId>
+        <version>3.0.1</version>
+    </dependency>
+</dependencies>
+
+
+</project>

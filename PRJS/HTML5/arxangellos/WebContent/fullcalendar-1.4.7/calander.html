@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+<link rel="shortcut icon" href="../css/img/silk/icons/sport_soccer.png" 	type="image/x-icon" />
+<link rel='stylesheet' type='text/css' href='fullcalendar.css' />
+<script type='text/javascript' src='jquery/jquery.js'></script>
+<script type='text/javascript' src='jquery/jquery-ui-custom.js'></script>
+<script type="text/javascript" src="../gamesApp/globals.js"></script>
+<script type='text/javascript' src='fullcalendar.js'></script>
+
+
+<script type='text/javascript'>
+
+	/**
+	 * getUrlParam
+	 * 
+	 * @param {} name
+	 * @return {String}
+	 */
+
+	 // http://localhost/mipClubs/fullcalendar-1.4.7/examples/getCalTeamGames.html?action=getCalField 
+	 
+	 
+	function getUrlParam(name) {
+		// get parameter from url 
+		name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+		var regexS = "[\\?&]" + name + "=([^&#]*)";
+		var regex = new RegExp(regexS);
+		var results = regex.exec(window.location.href);
+		if (results == null)
+			return "null";
+		else
+			return results[1];
+	}
+
+	$(document).ready(
+			function() {
+
+
+				var fname = getUrlParam("fname"). replace(/%20/g, '&nbsp;'); 
+				var logo = getUrlParam("logo"); 
+			
+				
+				var action = getUrlParam("action");
+				var sid = getUrlParam("sid");
+
+				
+				$('#calendar').fullCalendar(
+						{
+
+							header : {
+								left :'prev,next today',
+								center :'title',
+								//left :'',
+								right :'month,basicWeek,basicDay'
+							},
+							editable :false,
+
+							events : PublicServlet + "?action="+ action + "&sid=" + sid,
+
+							/*
+							eventDrop: function(event, delta) {
+								alert(event.title + ' was moved ' + delta + ' days\n' + '(should probably update your database)');
+							},*/
+
+							loading : function(bool) {
+								if (bool)
+									$('#loading').show();
+								else
+									$('#loading').hide();
+							}
+
+						});
+
+			});
+</script>
+<style type='text/css'>
+
+
+ 	
+	 
+	  .memopage,
+	  .fc-agenda .memopage .fc-event-time,
+	  .memopage a {
+	      background-color: #D0D0D0 ;
+	      border-color: #D0D0D0 ;
+	      color: black;
+	      }
+	      
+	  .memopagered,
+	  .fc-agenda .memopagered .fc-event-time,
+	  .memopagered a {
+	      background-color: red;
+	      border-color: red;
+	      color: white;
+	      }    
+	      
+	  .memopagegreen,
+	  .fc-agenda .memopagegreen .fc-event-time,
+	  .memopagegreen a {
+	      background-color: green;
+	      border-color: green;
+	      color: white;
+	      }
+	 
+	 
+	 
+	   .memopageblue,
+	  .fc-agenda .memopageblue .fc-event-time,
+	  .memopageblue a {
+	      background-color: blue;
+	      border-color: blue;
+	      color: white;
+	      }
+	 
+	  .memopageyellow,
+	  .fc-agenda .memopageyellow .fc-event-time,
+	  .memopageyellow a {
+	      background-color: yellow;
+	      border-color: yellow;
+	      color: black;
+	      }
+	 
+	  .memopageorange,
+	  .fc-agenda .memopageorange .fc-event-time,
+	  .memopageorange a {
+	      background-color: orange;
+	      border-color: orange;
+	      color: black;
+	      }
+	 
+	  .memopageblack,
+	  .fc-agenda .memopageblack .fc-event-time,
+	  .memopageblack a {
+	      background-color: black;
+	      border-color: black;
+	      color: white;
+	      }
+	 
+	  .memopagepink,
+	  .fc-agenda .memopagepink .fc-event-time,
+	  .memopageblack a {
+	      background-color: pink;
+	      border-color: pink;
+	      color: black;
+	      } 
+	 
+	 
+	 
+
+	body {
+		margin-top: 40px;
+		text-align: center;
+		font-size: 11px;
+		font-family: verdana;
+		}
+		
+	#loading {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		}
+
+	#calendar {
+		width: 800px;
+		}
+
+</style>
+</head>
+<body ><div id='loading' style='display:none'>loading...</div>
+<div   id='calendar' ></div>
+
+</body>
+</html>

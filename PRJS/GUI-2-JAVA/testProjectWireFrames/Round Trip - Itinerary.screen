@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="2" x="16" y="19" measuredWidth="987" measuredHeight="69">
+    <screen xsi:type="model:Screen" href="assets/Header.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="14" y="1003" measuredWidth="980" measuredHeight="41">
+    <screen xsi:type="model:Screen" href="assets/Footer.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="14" y="103" text="Itinerary details" measuredWidth="130" measuredHeight="27">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="5" x="758" y="107" text="Modify search, Flights, Itinerary" measuredWidth="217" measuredHeight="23" selection="2">
+    <font/>
+    <items link="Round%20trip%20-%20JFK%20-%20SFO%20-%20dates.screen" x="0" y="0" width="85" height="23" text="Modify search"/>
+    <items link="Round%20trip%20-%20Results.screen" x="103" y="0" width="42" height="23" text="Flights"/>
+    <items x="163" y="0" width="53" height="23" text="Itinerary"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="6" x="16" y="931" text="NOTE: Tickets cannot be purchased from ITA Software." measuredWidth="371" measuredHeight="15">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="16" y="962" text="Contact your travel agent, the airline, or another booking service to purchase tickets." measuredWidth="521" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="12" x="790" y="169" measuredWidth="206" measuredHeight="209">
+    <widgets xsi:type="model:Panel" id="10" width="206" height="209" measuredWidth="206" measuredHeight="209" background="#eeeeee" border="solid-rounded"/>
+    <widgets xsi:type="model:Text" id="11" x="10" y="11" width="186" height="193" text="*Mileage*&#xA;* 5158 total miles&#xA;&#xA;*CO2 emissions*&#xA;* 1453 lbs (estimated by ITA)&#xA;&#xA;*Airport Information*&#xA;* [New Your John F Kennedy International (JFK)]&#xA;* [San Francisco Internation (SFO)]" measuredWidth="186" measuredHeight="193">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="27" x="17" y="367" measuredWidth="751" measuredHeight="553">
+    <widgets xsi:type="model:Panel" id="25" width="751" height="553" measuredWidth="751" measuredHeight="553" background="#eeeeee" border="solid-rounded"/>
+    <widgets xsi:type="model:Label" id="13" x="10" y="16" text="How to buy this ticket" measuredWidth="176" measuredHeight="27">
+      <font size="16px" bold="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="14" x="10" y="41" text="Tickets cannot be purchased directly from ITA Software" measuredWidth="382" measuredHeight="23">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Table" id="20" x="26" y="115" text="*Fare 1:* Carrier UA KA21GN NYC to SFO ([rules]), >.$146.05&#xA;  ~Passenger type ADT\, one-way fare\, booking code K~&#xA;  ~Covers JFK-SFO (Economy)~&#xA;*Fare 2:* Carrier AS GA21ERP1 SFO to NYC ([rules]), $146.05&#xA;  ~Passenger type ADT\, one-way fare\, booking code G~&#xA;  ~Covers SFO-JFK (Economy)~&#xA;US Transportation Tax (US), $21.90&#xA;US September 11th Security Fee (AY), $5.00&#xA;US Passenger Facility Charge (XF), $9.00&#xA;US Flight Segment Tax (ZP), $7.60&#xA;&#xA;Subtotal per passenger, $335.60&#xA;Number of passengers, x1&#xA;&#xA;*TOTAL AIRFARE &amp; TAXES*, *$335.60*" measuredWidth="387" measuredHeight="319" border="false" alpha="0" alternative="#eeeeee" verticalLines="false" header="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="21" x="26" y="461" width="641" height="37" text="*Fare construction* (can be useful to travel agents)&#xA;NYC SY X/MSP SY SFO 121.86LT14PK USD 121.86 END ZP JFK MSP XT 9.14US 7.60ZP 5.00AY 9.00XF JFK4.50 MSP4.50" measuredWidth="641" measuredHeight="37">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="22" x="3" y="502" text="* [Email this itinerary]&#xA;* [Print this page]" measuredWidth="137" measuredHeight="30">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="23" x="26" y="71" text="Provide this information to a travel agent to help them match the fares found." measuredWidth="477" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="24" x="26" y="93" text="Make sure to provide the exact booking and fare codes shown." measuredWidth="433" measuredHeight="23">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="26" x="464" y="120" width="225" height="46" text="* ~This ticket is non-refundable.~&#xA;* ~Changes to this ticket will incur a penalty fee.~" measuredWidth="225" measuredHeight="46">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="28" x="313" y="328" measuredWidth="100" measuredHeight="6"/>
+    <widgets xsi:type="model:HLine" id="29" x="313" y="392" measuredWidth="100" measuredHeight="6"/>
+    <widgets xsi:type="model:HLine" id="30" x="26" y="448" width="705" measuredWidth="705" measuredHeight="6" foreground="#999999"/>
+    <widgets xsi:type="model:HLine" id="31" x="26" y="492" width="705" measuredWidth="705" measuredHeight="6" foreground="#999999"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="32" x="17" y="136" text="Itinerary" measuredWidth="56" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="33" x="14" y="156" width="753" measuredWidth="753" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="44" x="16" y="169" measuredWidth="754" measuredHeight="70">
+    <widgets xsi:type="model:Label" id="34" x="1" text="New York (JFK) to San Francisco (SFO) - Fri, Dec 7" measuredWidth="335" measuredHeight="23">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Placeholder" id="35" y="18" width="36" height="36" measuredWidth="36" measuredHeight="36"/>
+    <widgets xsi:type="model:Label" id="36" x="52" y="15" text="United 303" measuredWidth="65" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="37" x="206" y="15" text="Dep: 6:00AM" measuredWidth="75" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="38" x="305" y="15" text="Arr: 9:31AM" measuredWidth="68" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="39" x="403" y="15" text="6h 31m" measuredWidth="46" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="40" x="470" y="15" text="Boeing 757" measuredWidth="67" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="41" x="595" y="15" text="Economy (K)" measuredWidth="73" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="43" x="1" y="64" width="753" measuredWidth="753" measuredHeight="6" foreground="#999999" lineStyle="dotted"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="45" x="16" y="245" measuredWidth="754" measuredHeight="70">
+    <widgets xsi:type="model:Label" id="46" x="1" text="San Francisco (SFO) to New York (JFK) - Mon, Dec 10" measuredWidth="355" measuredHeight="23">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Placeholder" id="47" y="18" width="36" height="36" measuredWidth="36" measuredHeight="36"/>
+    <widgets xsi:type="model:Label" id="48" x="52" y="15" text="Alaska Airlines 1274" measuredWidth="115" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="49" x="206" y="15" text="Dep: 7:05AM" measuredWidth="75" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="50" x="305" y="15" text="Arr: 3:40AM" measuredWidth="68" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="51" x="403" y="15" text="5h 35m" measuredWidth="46" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="52" x="470" y="15" text="Boeing 767" measuredWidth="67" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="53" x="595" y="15" text="Economy (G)" measuredWidth="74" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="54" x="1" y="64" width="753" measuredWidth="753" measuredHeight="6" foreground="#999999" lineStyle="dotted"/>
+    <widgets xsi:type="model:Text" id="55" x="53" y="33" text="OPERATED BY AMERICAN&#xA;AIRLINES" measuredWidth="116" measuredHeight="24">
+      <font size="9px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="56" x="17" y="321" text="Cost per passenger (including taxes &amp; fees)" measuredWidth="268" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="57" x="374" y="321" text="$335.60" measuredWidth="57" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="58" x="17" y="337" text="Total cost for 1 passenger" measuredWidth="179" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="59" x="374" y="337" text="$335.60" measuredWidth="58" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="12" y="14" measuredWidth="1002" measuredHeight="517">
+    <screen xsi:type="model:Screen" href="Round%20trip%20-%20Template.screen#/"/>
+    <overrides>
+      <widgets ref="4" text="New York John F Kennedy International"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="2" x="149" y="164" width="209" height="26" measuredWidth="209" measuredHeight="26" link="Round%20trip%20-%20JFK%20-%20SFO.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

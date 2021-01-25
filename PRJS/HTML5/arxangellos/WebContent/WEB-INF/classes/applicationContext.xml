@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:webflow="http://www.springframework.org/schema/webflow-config"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:faces="http://www.springframework.org/schema/faces"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:jee="http://www.springframework.org/schema/jee" 
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://www.springframework.org/schema/webflow-config
+	http://www.springframework.org/schema/webflow-config/spring-webflow-config-2.0.xsd
+	http://www.springframework.org/schema/faces
+	http://www.springframework.org/schema/faces/spring-faces-2.0.xsd
+	http://www.springframework.org/schema/context 
+	http://www.springframework.org/schema/context/spring-context-2.5.xsd
+	http://www.springframework.org/schema/aop 
+	http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+	http://www.springframework.org/schema/jee 
+	http://www.springframework.org/schema/jee/spring-jee-2.5.xsd
+	http://www.springframework.org/schema/tx 
+	http://www.springframework.org/schema/tx/spring-tx-2.5.xsd"> 	
+		
+	<context:annotation-config />
+	
+	<!-- database connection -->
+	<bean id="myDataSource" 
+		class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+	
+	<!--
+		<property name="url" value="jdbc:mysql://leoninternet.com:3306/leoninte_memopage?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true" />
+		<property name="username" value="leoni_memopage" />
+		<property name="password" value="arxangellos123" />
+		-->
+		
+		
+		<property name="url" value="jdbc:mysql://127.0.0.1:3306/memopage?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true" />
+		<property name="username" value="memopage" />
+		<property name="password" value="memopage" />
+
+		
+		<property name="initialSize" value="10"/>
+		
+		<property name="maxActive" value="40"/>
+		<property name="maxIdle" value="10"/>
+		<property name="minIdle" value="10"/>
+		
+		<property name="validationQuery" value="select 1"/>
+		
+		<property name="timeBetweenEvictionRunsMillis" value="21600000"/>
+		<property name="minEvictableIdleTimeMillis" value="3600000"/>
+		
+		
+		
+	</bean>
+		
+	<!--
+		<bean id="myDataSource" 
+				class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+				<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+				<property name="url" value="jdbc:mysql://127.0.0.1:3306/leoninte_pamempala?useUnicode=true&amp;characterEncoding=UTF-8" />
+				<property name="username" value="leoni_admin" />
+				<property name="password" value="arxangellos123" />
+
+
+				<property name="initialSize" value="10"/>
+
+		<property name="maxActive" value="40"/>
+		<property name="maxIdle" value="10"/>
+		<property name="minIdle" value="10"/>
+
+		<property name="validationQuery" value="select 1"/>
+
+		<property name="timeBetweenEvictionRunsMillis" value="21600000"/>
+		<property name="minEvictableIdleTimeMillis" value="3600000"/>
+
+			</bean>
+
+		-->
+	
+	<!-- beans -->
+	
+	<bean id="contextApplicationContextProvider" 
+		class="com.memopage.context.ApplicationContextProvider"></bean>
+		  
+	
+	<bean id="transactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="myDataSource" />
+	</bean>
+
+	<tx:annotation-driven transaction-manager="transactionManager" />
+	
+	<bean id="userDao" class="com.memopage.dao.UserDao" scope="singleton"  dependency-check="objects" >
+		<property name="dataSource" ref="myDataSource"/>
+	</bean>	
+	
+	<bean id="sequenceDao" class="com.memopage.dao.SequenceDao"	autowire="byName" scope="singleton"  dependency-check="objects"  >
+		<property name="dataSource" ref="myDataSource"/>
+	</bean>	
+	
+	<bean id="memopageDao" class="com.memopage.dao.MemopageDao"	autowire="byName" scope="singleton"  dependency-check="objects"  >
+		<property name="dataSource" ref="myDataSource"/>
+	</bean>	
+	
+	<bean id="memopageCategoryDao" class="com.memopage.dao.MemopageCategoryDao"	autowire="byName" scope="singleton"  dependency-check="objects"  >
+		<property name="dataSource" ref="myDataSource"/>
+	</bean>
+	
+	
+	
+	<bean id="koinAreaCodeDao" class="com.koin.dao.KoinAreaCodeDao"	autowire="byName" scope="singleton"  dependency-check="objects"  >
+		<property name="dataSource" ref="myDataSource"/>
+	</bean>	
+	
+	
+	
+	
+	
+	
+</beans> 

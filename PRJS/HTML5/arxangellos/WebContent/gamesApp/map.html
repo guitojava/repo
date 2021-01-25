@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+<link rel="shortcut icon" href="../css/img/silk/icons/world.png" 	type="image/x-icon" />
+	
+
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<style type="text/css">
+  html { height: 100% }
+  body { height: 100%; margin: 0px; padding: 0px }
+  #map_canvas { height: 100% }
+</style>
+
+
+<title>arxangellos - MyWebWolrd</title>
+
+<link href="http://code.google.com/apis/maps/documentation/javascript/examples/standard.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="../js/ext-core-3.1.0/ext-core.js"></script>
+<script type="text/javascript" src="globals.js"></script>
+
+
+<script type="text/javascript">
+
+Ext.getUrlParam = function(param) {
+	   var params = Ext.urlDecode(location.search.substring(1));
+	   return param ? params[param] : params;
+	};
+
+
+
+	
+var geocoder;
+  var map;
+ //  var infowindow = new google.maps.InfoWindow();
+  var marker;
+  var eviction_list = [];
+
+
+
+  
+  function evictMarkers() {
+      	// clear all markers
+   		// eviction_list.forEach(function(item) { item.setMap(null) });
+   		// not in IE  8 
+
+      for(var i=0; i<eviction_list.length; i++) {
+      	var item = eviction_list[i];
+      	item.setMap(null);
+      }
+
+      // reset the eviction array 
+      eviction_list = [];
+  }
+
+
+
+
+  
+  
+  function initialize() {
+
+	geocoder = new google.maps.Geocoder();
+	var   latF = parseFloat( Ext.getUrlParam('lat')  );
+	var   lngF = parseFloat( Ext.getUrlParam('lng')  ) ;
+
+	var  mapZoom = parseInt (  Ext.getUrlParam('mapZoom') ) ;
+	if (  mapZoom == -1 ){
+		mapZoom = 9;// by default 
+	}
+
+	   
+	if  ( Ext.getUrlParam('ads') &&  Ext.getUrlParam('ads').length > 0   ){
+		
+		document.getElementById('address').value =  Ext.getUrlParam('ads');
+
+		if  ( latF ==  -1  ||  lngF  == -1  ){
+	        latF = 37.9646992;
+	        lngF = 23.7267834;
+	        document.getElementById('latlng').value   = ""+latF + ","+lngF;
+	   } 
+		else {
+		   	document.getElementById('latlng').value   =""+ latF +"," +lngF ;
+	   }
+		
+		
+   } else {
+	    latF = 37.9646992;
+        lngF = 23.7267834;
+        document.getElementById('latlng').value   = ""+latF + ","+lngF;
+		document.getElementById('address').value =  'Λεωφόρος Συγγρού 72-78, Αθήνα 11742, Ελλάδα';
+    	
+   }
+
+
+
+	
+	
+	/*alert (
+			'Sid '+	Ext.getUrlParam('sid') 
+			+' \n latlng = '   + document.getElementById('latlng').value 
+			+'\n address = '   + document.getElementById('address').value 
+				 );	 
+*/
+
+
+//	alert ( latF+"   "+ lngF  );
+
+ //   var loc = new google.maps.LatLng( latF , lngF );
+  //  var loc = new google.maps.LatLng(-34.397, 150.644);
+	
+    var myOptions = {
+      zoom: mapZoom ,
+      center: new google.maps.LatLng( latF , lngF )  ,
+      mapTypeId: google.maps.MapTypeId.HYBRID 
+    }
+    map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+
+    
+ //   alert (  " get Center "+  map.getCenter() );
+
+
+    
+    marker = new google.maps.Marker({
+	      position: new google.maps.LatLng( latF , lngF ) , 
+	      map: map
+	  });
+
+    eviction_list.push(marker);
+
+    google.maps.event.addListener(map, 'click', function(event) {
+	    placeMarker(event.latLng);
+	  });
+
+    
+  }
+
+ 
+
+  
+  function saveChanges() {
+
+		/*
+		alert (
+			'Sid '+	Ext.getUrlParam('sid') 
+			+' \n latlng = '   + document.getElementById('latlng').value 
+			+'\n address = '   + document.getElementById('address').value 
+				 );		
+
+*/
+
+
+		// get correct servelet 
+		var   tServelet = GamesServlet;
+		if  ( Ext.getUrlParam('act') == "saveKoinBuildingMapInfo"  ) {
+			tServelet = KoinAppServlet;
+		} else if  ( Ext.getUrlParam('act') == "saveMemopageMapInfo"  ) {
+			tServelet = GamesServlet;
+		}
+
+
+		Ext.Ajax.request({
+					method : 'POST', // noslz
+					url : tServelet,
+					params : {
+						sid: Ext.getUrlParam('sid'),
+						action : Ext.getUrlParam('act') ,
+						latlng: document.getElementById('latlng').value ,
+						mapZoom: map.getZoom() ,
+						address: document.getElementById('address').value 
+					},
+					scope : this,
+					success : function(res) {
+
+						//var obj = Ext.util.JSON.decode(res.responseText);
+
+						alert (
+								' Saved the map / address information  : '
+								//+' \n latlng = '   + document.getElementById('latlng').value 
+								+'\n\n  '   + document.getElementById('address').value 
+									 );		
+						
+					}// success
+				});// Ext.Ajax.request
+	    
+	  }
+  
+	  
+	function placeMarker(location) {
+
+	  document.getElementById('latlng').value = ""  + location.lat()  + ","+location.lng()    ; 	
+
+	  evictMarkers();
+	  	
+	  marker = new google.maps.Marker({
+	      position: location, 
+	      map: map
+	  });
+
+	  eviction_list.push(marker);
+
+	  codeLatLng();
+		
+	  // map.setCenter(location);
+	}
+ 
+
+  function codeLatLng() {
+	    var input = document.getElementById("latlng").value;
+	    var latlngStr = input.split(",",2);
+	    var lat = parseFloat(latlngStr[0]);
+	    var lng = parseFloat(latlngStr[1]);
+	    var latlng = new google.maps.LatLng(lat, lng);
+	    geocoder.geocode({'latLng': latlng}, function(results, status) {
+	      if (status == google.maps.GeocoderStatus.OK) {
+	        if (results[0]) {
+	      	  //         map.setZoom(11);
+	  		  
+	  		  evictMarkers();
+	          marker = new google.maps.Marker({
+	              position: latlng, 
+	              map: map
+	          }); 
+
+	          eviction_list.push(marker);
+	          
+				
+	          document.getElementById("address").value  =  results[0].formatted_address ;
+	          
+	         // infowindow.setContent(results[0].formatted_address);
+	          
+	          // infowindow.open(map, marker);
+	          
+	        } else {
+
+	        	document.getElementById("address").value  =  "No results found" ; 
+	          //alert("No results found");
+	        }
+	      } else {
+		      
+	        // alert("Geocoder failed due to: " + status);
+	        document.getElementById("address").value  =  "No results found" ; 
+		  }
+	    });
+	  }
+
+  function codeAddress() {
+
+	    var address = document.getElementById("address").value;
+
+		if (   null!= address && address !== "No results found"  ) {
+
+		    geocoder.geocode( { 'address': address}, function(results, status) {
+		      if (status == google.maps.GeocoderStatus.OK) {
+		
+		       
+		
+				var loc = results[0].geometry.location;
+
+
+				 evictMarkers();
+				
+		         marker = new google.maps.Marker({
+		            map: map, 
+		            position: loc
+		        });
+
+		         eviction_list.push(marker);
+					
+		    	 document.getElementById('latlng').value = ""  + loc.lat()  + ","+loc.lng()    ; 	
+		    	 map.setCenter( loc );
+		        
+		      } else {
+		        alert("Geocode was not successful for the following reason: " + status);
+		      }
+		    });
+
+		}  else {
+
+			 alert("address field seems to be empty  " );
+			
+		}	
+	  }
+  
+</script>
+</head>
+<body onload="initialize()">
+  <div>
+  	<BUTTON onclick=" saveChanges(); " TYPE="submit"> <IMG SRC="../css/img/silk/icons/table_save.png" ALIGN="absmiddle"> Αποθήκευση </BUTTON>
+    <input id="address" size="70"  type="textbox" value="Λεωφόρος Συγγρού 72-78, Αθήνα 11742, Ελλάδα">
+    <input type="button" value="Αναζήτηση διεύθυνσης" onclick="codeAddress();">
+    <input id="latlng"  size="40" type="hidden" value="37.9646992,23.7267834">
+    <!-- <input type="button" value="Reverse Geocode" onclick="codeLatLng()"> -->
+  </div>
+<div id="map_canvas" style="height:90%   ; "></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

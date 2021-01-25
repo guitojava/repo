@@ -1,0 +1,2 @@
+java -cp app.Application -jar my-todo-2.0.0.0.jar
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Button" id="1" x="447" y="94" text="OK" measuredWidth="37" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="3" x="350" y="128" text="[x] selected&#xA;" measuredWidth="77" measuredHeight="26" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="77" height="22" text="[x] selected"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="4" x="153" y="185" text="Name,Last\nName,=. Age v,(w:30). Kids,Likes,(align:center). Actions&#xA;Peter,Severin,44,[x],{computer},[Edit] [View]&#xA;Henri,Severin,(bg:lightGreen).14,[],{train},[Edit] [View]&#xA;Olga,Severin,69,[x],{note},[Edit] [View]&#xA;[-] You can even&#xA;  [+] Make a&#xA;  [+] Tree table" measuredWidth="342" measuredHeight="172" alternative="#eee">
+    <font/>
+    <items x="285" y="39" width="22" height="15" text="Edit"/>
+    <items x="310" y="39" width="27" height="15" text="View"/>
+    <items x="285" y="61" width="22" height="15" text="Edit"/>
+    <items x="310" y="61" width="27" height="15" text="View"/>
+    <items x="285" y="83" width="22" height="15" text="Edit"/>
+    <items x="310" y="83" width="27" height="15" text="View"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="6" x="208" y="96" text="Combo" measuredWidth="65" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="7" x="212" y="130" text="  /  /  " measuredWidth="58" measuredHeight="22"/>
+  <widgets xsi:type="model:Menu" id="8" x="153" y="25" text="&amp;File,&amp;Edit,&amp;View,~&amp;Window~,&amp;Help" measuredWidth="202" measuredHeight="25">
+    <items x="5" y="0" width="30" height="25" text="&amp;File"/>
+    <items x="35" y="0" width="33" height="25" text="&amp;Edit"/>
+    <items x="68" y="0" width="38" height="25" text="&amp;View"/>
+    <items x="106" y="0" width="55" height="25" text="~&amp;Window~"/>
+    <items x="161" y="0" width="36" height="25" text="&amp;Help"/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="9" x="432" y="26" text="Search" measuredWidth="68" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tree" id="10" x="-10" y="49" text="Folder One&#xA;-Folder Two&#xA;--File One&#xA;--File Two&#xA;v Collapse Arrow&#xA;-[>] Closed Folder&#xA;-[v] Open Folder&#xA;> Expand Arrow&#xA;[-] Collapse&#xA;-[+] Expand&#xA;[] You can have&#xA;[x] Checkboxes&#xA;() And even radio buttons&#xA;{attachment} Or just any other icon&#xA;[_] And no icon too" measuredWidth="164" measuredHeight="310">
+    <items x="0" y="5" width="164" height="20" text="Folder One"/>
+    <items x="0" y="25" width="164" height="20" text="-Folder Two"/>
+    <items x="0" y="45" width="164" height="20" text="--File One"/>
+    <items x="0" y="65" width="164" height="20" text="--File Two"/>
+    <items x="0" y="85" width="164" height="20" text="v Collapse Arrow"/>
+    <items x="0" y="105" width="164" height="20" text="-[>] Closed Folder"/>
+    <items x="0" y="125" width="164" height="20" text="-[v] Open Folder"/>
+    <items x="0" y="145" width="164" height="20" text="> Expand Arrow"/>
+    <items x="0" y="165" width="164" height="20" text="[-] Collapse"/>
+    <items x="0" y="185" width="164" height="20" text="-[+] Expand"/>
+    <items x="0" y="205" width="164" height="20" text="[] You can have"/>
+    <items x="0" y="225" width="164" height="20" text="[x] Checkboxes"/>
+    <items x="0" y="245" width="164" height="20" text="() And even radio buttons"/>
+    <items x="0" y="265" width="164" height="20" text="{attachment} Or just any other icon"/>
+    <items x="0" y="285" width="164" height="20" text="[_] And no icon too"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="11" x="447" y="129" text="ON,OFF" measuredWidth="70" measuredHeight="23" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="12" x="209" y="64" text="Text field" measuredWidth="63" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Spinner" id="13" x="578" y="151" text="42" measuredWidth="39" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HSlider" id="14" x="548" y="172" measuredWidth="100" measuredHeight="17"/>
+  <widgets xsi:type="model:Link" id="15" x="345" y="71" text="Link" measuredWidth="25" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="-8" y="7" text="CLASS" measuredWidth="54" measuredHeight="27">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="17" x="153" y="376" width="400" height="120" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="400" measuredHeight="120">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

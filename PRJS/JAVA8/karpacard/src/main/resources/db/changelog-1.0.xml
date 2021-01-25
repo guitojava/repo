@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  ~ Copyright (c) 2018. LeonDev, SA.
+  ~ This software is the proprietary information of George Leon.
+  ~ Use is subject to license terms.
+  -->
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="1.0.0-1" author="gleon">
+
+        <createTable tableName="deal" remarks="A table to contain  deals">
+            <column autoIncrement="true" name="id" type="BIGSERIAL">
+                <constraints nullable="false" unique="true" primaryKey="true"/>
+            </column>
+            <column name="account_number" type="varchar(255)"/>
+            <column name="document_number" type="varchar(255)"/>
+            <column name="document_type" type="varchar(255)"/>
+            <column name="document_date" type="DATE"/>
+            <column name="sender_entity_code" type="varchar(255)"/>
+            <column name="open_balance" type="DECIMAL(20,2)"/>
+            <column name="finance_charges" type="DECIMAL(20,2)"/>
+            <column name="total_due" type="DECIMAL(20,2)"/>
+            <column name="payments" type="TEXT"/>
+            <column name="creation_date" type="TIMESTAMP WITHOUT TIME ZONE"/>
+        </createTable>
+
+        <createTable tableName="shedlock" remarks="A table to contain shedlock locks">
+            <column name="name" type="VARCHAR(64)">
+                <constraints nullable="false" unique="true" primaryKey="true"/>
+            </column>
+            <column name="lock_until" type="TIMESTAMP(3)"/>
+            <column name="locked_at" type="TIMESTAMP(3)"/>
+            <column name="locked_by" type="varchar(255)"/>
+        </createTable>
+
+
+
+    </changeSet>
+
+
+
+
+
+
+
+
+
+
+
+
+</databaseChangeLog>

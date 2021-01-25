@@ -1,0 +1,37 @@
+
+<configuration>
+
+<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+        <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M\(%line\) - %msg%n</pattern>
+    </encoder>
+</appender>
+
+<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+    <file>logs/todo.log</file>
+
+    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+        <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M\(%line\) - %msg%n</Pattern>
+    </encoder>
+
+    <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+        <fileNamePattern>todo.%i.log</fileNamePattern>
+        <minIndex>1</minIndex>
+        <maxIndex>3</maxIndex>
+    </rollingPolicy>
+
+    <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+        <maxFileSize>1MB</maxFileSize>
+    </triggeringPolicy>
+</appender>
+
+<logger name="gr.primer" level="DEBUG" additivity="false">
+    <appender-ref ref="STDOUT" />
+    <appender-ref ref="FILE" />
+</logger>
+
+<root level="INFO">
+    <appender-ref ref="STDOUT" />
+</root>
+</configuration>

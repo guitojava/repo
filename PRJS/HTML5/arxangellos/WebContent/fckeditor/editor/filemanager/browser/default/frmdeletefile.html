@@ -1,0 +1,86 @@
+<!--
+ * FCKeditor - The text editor for internet
+ * Copyright (C) 2003-2005 Frederico Caldeira Knabben
+ * 
+ * Licensed under the terms of the GNU Lesser General Public License:
+ * 		http://www.opensource.org/licenses/lgpl-license.php
+ * 
+ * For further information visit:
+ * 		http://www.fckeditor.net/
+ * 
+ * File Name: frmcreatefolder.html
+ * 	Page used to create new folders in the current folder.
+ * 
+ * File Authors:
+ * 		Frederico Caldeira Knabben (fredck@fckeditor.net)
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link href="browser.css" type="text/css" rel="stylesheet">
+		<script type="text/javascript" src="js/common.js"></script>
+		<script language="javascript">
+
+
+
+		function SetCurrentFolder( resourceType, folderPath )
+		{
+			oConnector.ResourceType = resourceType ;
+			oConnector.CurrentFolder = folderPath ;
+		}
+
+		function DeleteFile()
+		{
+			var sFileName ;
+
+			while ( true )
+			{
+				sFileName = prompt( 'Type the name of the file to delete folder:', '' ) ;
+
+				if ( sFileName == null )
+					return ;
+				else if ( sFileName.length == 0 )
+					alert( 'Please type the file name' ) ;
+				else
+					break ;
+			}
+
+			oConnector.SendCommand( 'DeleteFile', 'DeleteFileName=' + encodeURIComponent( sFileName) , DeleteFileCallBack ) ;
+		}
+
+		function DeleteFileCallBack( fckXml )
+		{
+			if ( oConnector.CheckError( fckXml ) == 0 )
+				window.parent.frames['frmResourcesList'].Refresh() ;
+
+			
+		}
+
+		window.onload = function()
+		{
+			window.top.IsLoadedDeleteFile = true ;
+		}
+
+
+
+		</script>
+	</head>
+	<body>
+		<table class="fullHeight" cellSpacing="0" cellPadding="0" width="100%" border="0">
+			<tr>
+				<td>
+					<button type="button" style="WIDTH: 100%" onclick="DeleteFile();">
+						<table cellSpacing="0" cellPadding="0" border="0">
+							<tr>
+								<td><img height="16" alt="" src="images/delete.png" width="16"></td>
+								<td>&nbsp;</td>
+								<td nowrap>Delete File</td>
+							</tr>
+						</table>
+					</button>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

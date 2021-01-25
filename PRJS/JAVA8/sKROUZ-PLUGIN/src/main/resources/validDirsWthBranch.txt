@@ -1,0 +1,492 @@
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/1. Αταξινόμητα/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/1. Αταξινόμητα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/1. Αταξινόμητα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/1. Αταξινόμητα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/1. Αταξινόμητα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/1. Αταξινόμητα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/1. Αταξινόμητα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/1. Αταξινόμητα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/2. Ταξινομημένα/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/2. Ταξινομημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/2. Ταξινομημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/2. Ταξινομημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/2. Ταξινομημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/2. Ταξινομημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/2. Ταξινομημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/2. Ταξινομημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/3. Καταχωρημένα/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/3. Καταχωρημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/3. Καταχωρημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/3. Καταχωρημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/3. Καταχωρημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/3. Καταχωρημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/3. Καταχωρημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/3. Καταχωρημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/4. Μη εκπιπτόμενα/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/4. Μη εκπιπτόμενα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/4. Μη εκπιπτόμενα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/4. Μη εκπιπτόμενα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/4. Μη εκπιπτόμενα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/4. Μη εκπιπτόμενα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/4. Μη εκπιπτόμενα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/4. Μη εκπιπτόμενα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/5. Διαγράφηκε/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/5. Διαγράφηκε/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/5. Διαγράφηκε/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/5. Διαγράφηκε/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/5. Διαγράφηκε/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/5. Διαγράφηκε/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/5. Διαγράφηκε/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/__BRANCH__/5. Διαγράφηκε/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/1. Αταξινόμητα/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/1. Αταξινόμητα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/1. Αταξινόμητα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/1. Αταξινόμητα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/1. Αταξινόμητα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/1. Αταξινόμητα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/1. Αταξινόμητα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/1. Αταξινόμητα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/2. Ταξινομημένα/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/2. Ταξινομημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/2. Ταξινομημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/2. Ταξινομημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/2. Ταξινομημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/2. Ταξινομημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/2. Ταξινομημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/2. Ταξινομημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/3. Καταχωρημένα/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/3. Καταχωρημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/3. Καταχωρημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/3. Καταχωρημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/3. Καταχωρημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/3. Καταχωρημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/3. Καταχωρημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/3. Καταχωρημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/4. Μη εκπιπτόμενα/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/4. Μη εκπιπτόμενα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/4. Μη εκπιπτόμενα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/4. Μη εκπιπτόμενα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/4. Μη εκπιπτόμενα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/4. Μη εκπιπτόμενα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/4. Μη εκπιπτόμενα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/4. Μη εκπιπτόμενα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/5. Διαγράφηκε/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/5. Διαγράφηκε/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/5. Διαγράφηκε/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/5. Διαγράφηκε/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/5. Διαγράφηκε/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/5. Διαγράφηκε/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/5. Διαγράφηκε/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/__BRANCH__/5. Διαγράφηκε/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/1. Αταξινόμητα/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/1. Αταξινόμητα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/1. Αταξινόμητα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/1. Αταξινόμητα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/1. Αταξινόμητα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/1. Αταξινόμητα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/1. Αταξινόμητα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/1. Αταξινόμητα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/2. Ταξινομημένα/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/2. Ταξινομημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/2. Ταξινομημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/2. Ταξινομημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/2. Ταξινομημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/2. Ταξινομημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/2. Ταξινομημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/2. Ταξινομημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/3. Καταχωρημένα/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/3. Καταχωρημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/3. Καταχωρημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/3. Καταχωρημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/3. Καταχωρημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/3. Καταχωρημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/3. Καταχωρημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/3. Καταχωρημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/4. Μη εκπιπτόμενα/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/4. Μη εκπιπτόμενα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/4. Μη εκπιπτόμενα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/4. Μη εκπιπτόμενα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/4. Μη εκπιπτόμενα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/4. Μη εκπιπτόμενα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/4. Μη εκπιπτόμενα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/4. Μη εκπιπτόμενα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/5. Διαγράφηκε/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/5. Διαγράφηκε/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/5. Διαγράφηκε/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/5. Διαγράφηκε/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/5. Διαγράφηκε/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/5. Διαγράφηκε/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/5. Διαγράφηκε/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/__BRANCH__/5. Διαγράφηκε/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/1. Αταξινόμητα/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/1. Αταξινόμητα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/1. Αταξινόμητα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/1. Αταξινόμητα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/1. Αταξινόμητα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/1. Αταξινόμητα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/1. Αταξινόμητα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/1. Αταξινόμητα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/2. Ταξινομημένα/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/2. Ταξινομημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/2. Ταξινομημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/2. Ταξινομημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/2. Ταξινομημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/2. Ταξινομημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/2. Ταξινομημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/2. Ταξινομημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/3. Καταχωρημένα/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/3. Καταχωρημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/3. Καταχωρημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/3. Καταχωρημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/3. Καταχωρημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/3. Καταχωρημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/3. Καταχωρημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/3. Καταχωρημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/4. Μη εκπιπτόμενα/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/4. Μη εκπιπτόμενα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/4. Μη εκπιπτόμενα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/4. Μη εκπιπτόμενα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/4. Μη εκπιπτόμενα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/4. Μη εκπιπτόμενα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/4. Μη εκπιπτόμενα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/4. Μη εκπιπτόμενα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/5. Διαγράφηκε/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/5. Διαγράφηκε/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/5. Διαγράφηκε/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/5. Διαγράφηκε/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/5. Διαγράφηκε/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/5. Διαγράφηκε/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/5. Διαγράφηκε/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/__BRANCH__/5. Διαγράφηκε/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/1. Αταξινόμητα/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/1. Αταξινόμητα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/1. Αταξινόμητα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/1. Αταξινόμητα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/1. Αταξινόμητα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/1. Αταξινόμητα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/1. Αταξινόμητα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/1. Αταξινόμητα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/2. Ταξινομημένα/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/2. Ταξινομημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/2. Ταξινομημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/2. Ταξινομημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/2. Ταξινομημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/2. Ταξινομημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/2. Ταξινομημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/2. Ταξινομημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/3. Καταχωρημένα/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/3. Καταχωρημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/3. Καταχωρημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/3. Καταχωρημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/3. Καταχωρημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/3. Καταχωρημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/3. Καταχωρημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/3. Καταχωρημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/4. Μη εκπιπτόμενα/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/4. Μη εκπιπτόμενα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/4. Μη εκπιπτόμενα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/4. Μη εκπιπτόμενα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/4. Μη εκπιπτόμενα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/4. Μη εκπιπτόμενα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/4. Μη εκπιπτόμενα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/4. Μη εκπιπτόμενα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/5. Διαγράφηκε/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/5. Διαγράφηκε/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/5. Διαγράφηκε/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/5. Διαγράφηκε/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/5. Διαγράφηκε/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/5. Διαγράφηκε/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/5. Διαγράφηκε/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/__BRANCH__/5. Διαγράφηκε/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/1. Αταξινόμητα/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/1. Αταξινόμητα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/1. Αταξινόμητα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/1. Αταξινόμητα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/1. Αταξινόμητα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/1. Αταξινόμητα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/1. Αταξινόμητα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/1. Αταξινόμητα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/2. Ταξινομημένα/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/2. Ταξινομημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/2. Ταξινομημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/2. Ταξινομημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/2. Ταξινομημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/2. Ταξινομημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/2. Ταξινομημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/2. Ταξινομημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/3. Καταχωρημένα/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/3. Καταχωρημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/3. Καταχωρημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/3. Καταχωρημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/3. Καταχωρημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/3. Καταχωρημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/3. Καταχωρημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/3. Καταχωρημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/4. Μη εκπιπτόμενα/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/4. Μη εκπιπτόμενα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/4. Μη εκπιπτόμενα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/4. Μη εκπιπτόμενα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/4. Μη εκπιπτόμενα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/4. Μη εκπιπτόμενα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/4. Μη εκπιπτόμενα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/4. Μη εκπιπτόμενα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/5. Διαγράφηκε/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/5. Διαγράφηκε/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/5. Διαγράφηκε/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/5. Διαγράφηκε/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/5. Διαγράφηκε/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/5. Διαγράφηκε/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/5. Διαγράφηκε/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/__BRANCH__/5. Διαγράφηκε/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/1. Αταξινόμητα/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/1. Αταξινόμητα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/1. Αταξινόμητα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/1. Αταξινόμητα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/1. Αταξινόμητα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/1. Αταξινόμητα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/1. Αταξινόμητα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/1. Αταξινόμητα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/2. Ταξινομημένα/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/2. Ταξινομημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/2. Ταξινομημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/2. Ταξινομημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/2. Ταξινομημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/2. Ταξινομημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/2. Ταξινομημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/2. Ταξινομημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/3. Καταχωρημένα/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/3. Καταχωρημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/3. Καταχωρημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/3. Καταχωρημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/3. Καταχωρημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/3. Καταχωρημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/3. Καταχωρημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/3. Καταχωρημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/4. Μη εκπιπτόμενα/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/4. Μη εκπιπτόμενα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/4. Μη εκπιπτόμενα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/4. Μη εκπιπτόμενα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/4. Μη εκπιπτόμενα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/4. Μη εκπιπτόμενα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/4. Μη εκπιπτόμενα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/4. Μη εκπιπτόμενα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/5. Διαγράφηκε/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/5. Διαγράφηκε/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/5. Διαγράφηκε/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/5. Διαγράφηκε/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/5. Διαγράφηκε/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/5. Διαγράφηκε/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/5. Διαγράφηκε/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/__BRANCH__/5. Διαγράφηκε/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/1. Αταξινόμητα/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/1. Αταξινόμητα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/1. Αταξινόμητα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/1. Αταξινόμητα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/1. Αταξινόμητα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/1. Αταξινόμητα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/1. Αταξινόμητα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/1. Αταξινόμητα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/2. Ταξινομημένα/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/2. Ταξινομημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/2. Ταξινομημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/2. Ταξινομημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/2. Ταξινομημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/2. Ταξινομημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/2. Ταξινομημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/2. Ταξινομημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/3. Καταχωρημένα/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/3. Καταχωρημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/3. Καταχωρημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/3. Καταχωρημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/3. Καταχωρημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/3. Καταχωρημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/3. Καταχωρημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/3. Καταχωρημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/4. Μη εκπιπτόμενα/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/4. Μη εκπιπτόμενα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/4. Μη εκπιπτόμενα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/4. Μη εκπιπτόμενα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/4. Μη εκπιπτόμενα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/4. Μη εκπιπτόμενα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/4. Μη εκπιπτόμενα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/4. Μη εκπιπτόμενα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/5. Διαγράφηκε/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/5. Διαγράφηκε/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/5. Διαγράφηκε/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/5. Διαγράφηκε/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/5. Διαγράφηκε/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/5. Διαγράφηκε/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/5. Διαγράφηκε/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/__BRANCH__/5. Διαγράφηκε/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/1. Αταξινόμητα/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/1. Αταξινόμητα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/1. Αταξινόμητα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/1. Αταξινόμητα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/1. Αταξινόμητα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/1. Αταξινόμητα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/1. Αταξινόμητα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/1. Αταξινόμητα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/2. Ταξινομημένα/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/2. Ταξινομημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/2. Ταξινομημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/2. Ταξινομημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/2. Ταξινομημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/2. Ταξινομημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/2. Ταξινομημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/2. Ταξινομημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/3. Καταχωρημένα/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/3. Καταχωρημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/3. Καταχωρημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/3. Καταχωρημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/3. Καταχωρημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/3. Καταχωρημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/3. Καταχωρημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/3. Καταχωρημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/5. Διαγράφηκε/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/5. Διαγράφηκε/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/5. Διαγράφηκε/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/5. Διαγράφηκε/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/5. Διαγράφηκε/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/5. Διαγράφηκε/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/5. Διαγράφηκε/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/__BRANCH__/5. Διαγράφηκε/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/1. Αταξινόμητα/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/1. Αταξινόμητα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/1. Αταξινόμητα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/1. Αταξινόμητα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/1. Αταξινόμητα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/1. Αταξινόμητα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/1. Αταξινόμητα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/1. Αταξινόμητα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/2. Ταξινομημένα/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/2. Ταξινομημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/2. Ταξινομημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/2. Ταξινομημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/2. Ταξινομημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/2. Ταξινομημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/2. Ταξινομημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/2. Ταξινομημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/3. Καταχωρημένα/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/3. Καταχωρημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/3. Καταχωρημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/3. Καταχωρημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/3. Καταχωρημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/3. Καταχωρημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/3. Καταχωρημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/3. Καταχωρημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/4. Μη εκπιπτόμενα/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/4. Μη εκπιπτόμενα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/4. Μη εκπιπτόμενα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/4. Μη εκπιπτόμενα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/4. Μη εκπιπτόμενα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/4. Μη εκπιπτόμενα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/4. Μη εκπιπτόμενα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/4. Μη εκπιπτόμενα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/5. Διαγράφηκε/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/5. Διαγράφηκε/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/5. Διαγράφηκε/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/5. Διαγράφηκε/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/5. Διαγράφηκε/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/5. Διαγράφηκε/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/5. Διαγράφηκε/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/__BRANCH__/5. Διαγράφηκε/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/1. Αταξινόμητα/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/1. Αταξινόμητα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/1. Αταξινόμητα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/1. Αταξινόμητα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/1. Αταξινόμητα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/1. Αταξινόμητα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/1. Αταξινόμητα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/1. Αταξινόμητα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/2. Ταξινομημένα/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/2. Ταξινομημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/2. Ταξινομημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/2. Ταξινομημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/2. Ταξινομημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/2. Ταξινομημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/2. Ταξινομημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/2. Ταξινομημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/3. Καταχωρημένα/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/3. Καταχωρημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/3. Καταχωρημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/3. Καταχωρημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/3. Καταχωρημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/3. Καταχωρημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/3. Καταχωρημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/3. Καταχωρημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/5. Διαγράφηκε/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/5. Διαγράφηκε/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/5. Διαγράφηκε/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/5. Διαγράφηκε/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/5. Διαγράφηκε/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/5. Διαγράφηκε/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/5. Διαγράφηκε/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/__BRANCH__/5. Διαγράφηκε/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/1. Αταξινόμητα/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/1. Αταξινόμητα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/1. Αταξινόμητα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/1. Αταξινόμητα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/1. Αταξινόμητα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/1. Αταξινόμητα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/1. Αταξινόμητα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/1. Αταξινόμητα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/2. Ταξινομημένα/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/2. Ταξινομημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/2. Ταξινομημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/2. Ταξινομημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/2. Ταξινομημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/2. Ταξινομημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/2. Ταξινομημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/2. Ταξινομημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/3. Καταχωρημένα/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/3. Καταχωρημένα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/3. Καταχωρημένα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/3. Καταχωρημένα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/3. Καταχωρημένα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/3. Καταχωρημένα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/3. Καταχωρημένα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/3. Καταχωρημένα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/4. Μη εκπιπτόμενα/7. Παρακρατούμενοι & Λοιποί φόροι/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/5. Διαγράφηκε/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/5. Διαγράφηκε/1. Αγορές/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/5. Διαγράφηκε/2. Πωλήσεις/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/5. Διαγράφηκε/3. Δαπάνες/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/5. Διαγράφηκε/4. Τράπεζες/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/5. Διαγράφηκε/5. Λοιπά Αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/5. Διαγράφηκε/6. Πάγια/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/__BRANCH__/5. Διαγράφηκε/7. Παρακρατούμενοι & Λοιποί φόροι/

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="1" x="13" y="10" width="960" height="52" measuredWidth="960" measuredHeight="52" border="none"/>
+  <widgets xsi:type="model:Button" id="2" x="16" y="16" width="76" text="$306" measuredWidth="76" measuredHeight="27">
+    <font size="13px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Placeholder" id="3" x="135" y="16" width="40" height="36" measuredWidth="40" measuredHeight="36"/>
+  <widgets xsi:type="model:Label" id="4" x="187" y="12" text="Sun Country" measuredWidth="81" measuredHeight="21">
+    <font size="11px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="337" y="12" text="11:30am" measuredWidth="55" measuredHeight="21">
+    <font size="11px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="337" y="30" text="6:00pm" measuredWidth="49" measuredHeight="21">
+    <font size="11px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="422" y="12" text="5:10pm" measuredWidth="49" measuredHeight="21">
+    <font size="11px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="422" y="30" text="10:37am" measuredWidth="55" measuredHeight="21">
+    <font size="11px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="506" y="12" text="8h 40m" measuredWidth="46" measuredHeight="21">
+    <font size="11px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="506" y="30" text="37h 37m" measuredWidth="53" measuredHeight="21">
+    <font size="11px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="609" y="12" text="JFK to SFO" measuredWidth="59" measuredHeight="21">
+    <font size="11px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="609" y="30" text="SFO to JFK" measuredWidth="59" measuredHeight="21">
+    <font size="11px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="699" y="12" text="MSF" measuredWidth="27" measuredHeight="21">
+    <font size="11px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="699" y="30" text="MSF" measuredWidth="27" measuredHeight="21">
+    <font size="11px" bold="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

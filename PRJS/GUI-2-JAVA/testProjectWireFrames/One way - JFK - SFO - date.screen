@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="31" y="20" measuredWidth="1002" measuredHeight="517">
+    <screen xsi:type="model:Screen" href="One%20way%20-%20Template.screen#/"/>
+    <overrides>
+      <widgets ref="4" text="New York John F Kennedy International"/>
+      <widgets ref="6" text="San Francisco International, CA (SFO)"/>
+      <widgets ref="13" text="12/7/2012"/>
+      <widgets ref="20" link="One%20Way%20-%20Results.screen"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="272" y="238" text="~Fri, Dec 7~" measuredWidth="62" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

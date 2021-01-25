@@ -1,0 +1,523 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title> </title>
+<link rel="stylesheet" type="text/css"
+	href="../js/ext3/resources/css/ext-all.css" />
+<script type="text/javascript" src="../js/ext3/adapter/ext/ext-base.js"></script>
+<script type="text/javascript" src="../js/ext3/ext-all-debug.js"></script>
+
+<style type="text/css">
+body {
+	padding: 10px;
+}
+
+.icon-soccer{ background-image:url(./img/sport_soccer.png) ! important;
+}
+
+
+
+.availableLot {
+	width: 105px;
+	border: 1px solid #999999;
+	padding: 10px;
+	height: 290px;
+	-moz-border-radius: 17px;
+	-webkit-border-radius: 17px;
+}
+
+/* .rented, .repair {
+        width: 195px;
+    }*/
+.rented {
+	width: 700px;
+	height: 400px;
+}
+
+.avPlayers {
+	width: 60px;
+	height: 500px;
+}
+
+.availableLot div {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width: 85px;
+	border: 1px solid #666666;
+	padding: 3px;
+	background-color: #FFFFFF;
+	margin: 5px;
+	cursor: move;
+	text-align: center;
+}
+
+#cars div,#trucks div {
+	margin: 5px;
+	width: 85px;
+}
+
+#repair div,#rented div {
+	float: left;
+	margin: 2px;
+	/*padding:           3px;*/
+}
+
+.imgThumb {
+	height: 30pt; 
+	width: 20pt;
+	/*border: 1px solid #777777;*/
+}
+
+.dropOK {
+	background-color: #99ff99 !important;
+}
+
+.dropNotOK {
+	border: 1px solid #FF0000 !important;
+}
+</style>
+
+</head>
+<body  >
+
+<div id="saveBtnDiv" align="center" >
+	<!-- <input id="saveBtnId" type="button" onClick="savePositions()" value="Save Position !!!">   -->
+</div>
+
+<div align="center"><img src="img/field.jpg"  width="700" height="500"></div>
+<div  id="cars"></div>
+
+<script type="text/javascript">
+
+
+team1=new Array();
+
+var g  = getUrlParam('g');  
+var gt  = getUrlParam('gtp');   
+var e  = getUrlParam('e');  
+
+//alert (  " g=" + g + " gt=" +gt + " e=" +  e   ) ;
+
+
+if ( g!= "null" && gt != "null"  && e!= "null" ) {
+
+	Ext.Ajax.request({
+		method : "POST",
+		url : '/mipClubs/GamesAppServlet',
+		params : {
+			action : 'getFootbalPositions',
+			g:  g,
+			gt: gt	
+		},
+		scope : this,
+		success : function(res) {
+	
+			var obj = Ext.util.JSON.decode(res.responseText);	
+			loadPositions( obj ); 
+
+
+			
+		}//success
+	});//Ext.Ajax.request
+
+
+	
+}
+else { 
+
+//alert ( "initPositions    ");
+	
+	alert ( "init OK " );
+	
+ 	//initPositions(  22  );
+ 	//loadIt();
+} 
+
+
+
+
+
+
+function createPlayerDiv( player  )
+{
+	var divTag = document.createElement("div");
+    divTag.id =  player.pid ;
+    //divTag.setAttribute("align","center");
+    //divTag.style.margin = "0px auto";
+    //divTag.className ="dynamicDiv";
+	    
+ //    alert (  player.pimg + player.pid ); 
+	
+	var tStr = player.pimg ;
+	
+	if ( player.pid!='-1' &&  tStr!= null  ){
+	
+	
+		var from = tStr.indexOf("<img")+4; 
+		var to = tStr.indexOf("/>"); 
+		tStr = tStr.substring(from, to); 
+	
+		
+		//alert ( "<img  align='absmiddle' class='imgThumb'  qtip='" + player.pid +"'  "  + tStr   +" /> "   ) ; 
+	
+		
+	    divTag.innerHTML =  
+		" <b>"+player.pid +"</b><br>" 
+	    + "<img  align='top'   qtip='" + player.pid +"' "  + tStr   +"/> "; 
+	      
+	  //  "<img  align='absmiddle' src='"+ srcOnly +"'  class='imgThumb' qtip='" + player.pid +"'/> " 
+	
+	  
+
+	}
+
+   
+//  img/player1.gif
+
+   return divTag; 
+}
+
+
+
+
+function loadPositions( tdata ){
+
+
+	var saveBtn = new Ext.Button({
+		text : '<b> - Click here to Save changes !!! - <b>',
+		iconCls : 'icon-soccer',
+		renderTo: 'saveBtnDiv',
+		scale : 'medium',
+		handler : function() {
+			savePositions();
+		}// handler
+	});
+	
+
+	for( var  i=0; i< tdata.length  ; i++){
+		var player = new Object;
+		player.pid = tdata[i].pid;
+		
+		player.x = tdata[i].x;
+		player.y = tdata[i].y;
+
+
+		player.pimg = tdata[i].pimg;
+		
+		// store 
+		team1.push(player);
+		divTag = createPlayerDiv( player );
+
+		// alert ( "player.pid =" + player.pid   );
+		
+		if (player.pid  != "-1"  || player.pid != -1 )
+			Ext.getDom("cars").appendChild(divTag);
+				
+	}
+
+
+	loadIt();
+
+
+	if ( e!='1')  saveBtn.	disable(); 
+
+	
+}
+
+
+function initPositions( tot   ){
+	xTemp = 100;
+	yTemp = 40; 
+
+	e="1";
+ 		 
+	for( var  i=0; i< tot  ; i++){
+		var player = new Object;
+
+		player.pid = "#" + i;
+		
+		xTemp= xTemp +  70  ; 
+		
+		if ( i % 5 == 0 ) { 
+			yTemp= yTemp + 40; 
+			xTemp = 100;
+		}
+		
+		player.x = xTemp;
+		player.y = yTemp;
+		
+		// store 
+		team1.push(player);
+		
+		divTag = createPlayerDiv( player );
+
+		//alert ( "player.pid =" + player.pid   );
+		
+		if ( player.pid  != "-1"  || player.pid != -1 )
+			Ext.getDom("cars").appendChild(divTag);
+		
+	}
+	
+	
+}
+
+
+function savePositions( ){
+
+
+if ( e =="1" ){
+
+	var ret ="[";
+	for(  var i=0; i < team1.length  ; i++){
+		var p 		=  team1[i] ;
+
+			
+		var xInt = 	 parseInt( p.x  )  ;
+		var yInt =   parseInt(  p.y );
+		
+		if ( i != team1.length   -  1 ){
+			ret = ret 	+ "{pid:'" + team1[i].pid +  "',  x:"+ xInt +  ",y:" +  yInt   +  ",pimg:'"  + p.pimg  +"'   } " + " , " ;	
+		}
+		else{
+			ret = ret 	+ "{pid:'" + team1[i].pid +  "',  x:"+ xInt +  ",y:" +yInt     +  ",pimg:'"  + p.pimg  +"'   } " ;	
+		}
+	}
+	ret = ret + "]" ;
+	
+	//alert (  "g="+g+  "gt="+ gt + "   ret = "+ ret);
+
+	Ext.Ajax.request({
+		method : "POST",
+		url : '/mipClubs/GamesAppServlet',
+		params : {
+			action : 'saveFootbalPositions',
+			gt: gt,
+			g:  g,
+			jsonFldPos: ret
+			
+		},
+		scope : this,
+		success : function(res) {
+
+
+			
+			Ext.Msg.show({
+				title : 'Saved changes ok',
+				buttons : Ext.MessageBox.OK,
+				msg : '<b>All changes saved</b> '
+			
+				});
+
+
+			
+		}//success
+	});//Ext.Ajax.request
+
+} else {
+
+	Ext.Msg.show({
+		title : 'Player positions',
+		buttons : Ext.MessageBox.OK,
+		msg : 'Only Game Organiser can change the Player positions.'
+	
+		});
+
+
+	
+}
+		
+}
+
+
+
+
+
+function movePlayersIntoPlay( ){
+
+	for( var  i=0; i< team1.length  ; i++){
+
+		
+		var player = new Object;
+		player.pid = team1[i].pid;
+	
+		player.x = team1[i].x;
+		player.y = team1[i].y;
+
+		if ( player.pid  != '-1' || player.pid  != -1   ){
+		
+	        plElem =  Ext.get(  player.pid  );
+			// move to   X.Y 
+			
+			var animCfgObj = {
+	                    easing   : 'elasticOut',
+	                    duration : 1,
+	                    scope    : this,
+	                    callback : function() {
+	                        //this.el.dom.style.position = '';
+	                    }
+	        };
+			
+	        plElem.moveTo(player.x, player.y, animCfgObj);
+
+		}
+				
+	}
+	
+}
+
+
+
+
+Ext.onReady(function() {
+
+	
+});
+
+
+
+
+
+
+function loadIt(){
+
+    Ext.QuickTips.init();
+
+    // A list of method overrides
+    var overrides = {
+        //Called when mousedown for a specific amount of time
+        b4StartDrag : function() {
+
+			
+            if ( this.el == null) {
+                this.el = Ext.get(this.getEl());
+            }
+            
+            // this.el.highlight();
+            //Cache the original XY Coordinates of the element, we'll use this later.
+            //this.originalXY = this.el.getXY();
+            
+        },
+        // Called when element is dropped not anything other than a
+        // dropzone with the same ddgroup
+        onInvalidDrop : function() {
+          //  this.invalidDrop = true;
+
+        },
+        endDrag : function() {
+
+			/*
+        	alert (  "New point  pid: " + this.el.id 
+                	+ " x:"+ this.el.getXY()[0] 
+                	+ " y:"+ this.el.getXY()[1]   );	
+			*/
+
+			// update x,y  very important 
+			
+			
+        	for( var  i=0; i< team1.length  ; i++){
+			            	
+        		if ( this.el != null && this.el.id !=null && team1[i].pid   ==  this.el.id  ){
+        			team1[i].x = this.el.getXY()[0] ;
+        			team1[i].y = this.el.getXY()[1] ;
+        		}
+
+            }
+
+			
+        	
+
+            // if outside 
+            /*
+            if (this.invalidDrop === true) {
+                this.el.removeClass('dropOK');
+
+                var animCfgObj = {
+                    easing   : 'elasticOut',
+                    duration : 1,
+                    scope    : this,
+                    callback : function() {
+                        this.el.dom.style.position = '';
+                    }
+                };
+
+                this.el.moveTo(this.originalXY[0], this.originalXY[1], animCfgObj);
+
+                delete this.invalidDrop;
+            }*/
+            
+
+        }
+
+		
+
+
+        
+    };
+
+// Configure the cars to be draggable
+var carElements = Ext.get('cars').select('div');
+Ext.each(carElements.elements, function(el) {
+
+	if ( el!=null && e=="1" ){
+    var dd = new Ext.dd.DD(el, 'carsDDGroup', {
+        isTarget  : false
+    });
+    Ext.apply(dd, overrides);
+	}
+});
+
+
+/*
+var truckElements = Ext.get('trucks').select('div');
+Ext.each(truckElements.elements, function(el) {
+    var dd = new Ext.dd.DD(el, 'trucksDDGroup', {
+        isTarget  : false
+    });
+    Ext.apply(dd, overrides);
+});
+*/
+
+//Instantiate instances of Ext.dd.DDTarget for the cars and trucks container
+var carsDDTarget    = new Ext.dd.DDTarget('cars','carsDDGroup');
+
+//var trucksDDTarget = new Ext.dd.DDTarget('trucks', 'trucksDDGroup');
+
+//Instantiate instnaces of DDTarget for the rented and repair drop target elements
+var rentedDDTarget = new Ext.dd.DDTarget('rented', 'carsDDGroup');
+var repairDDTarget = new Ext.dd.DDTarget('repair', 'carsDDGroup');
+
+//Ensure that the rented and repair DDTargets will participate in the trucksDDGroup
+//rentedDDTarget.addToGroup('trucksDDGroup');
+//repairDDTarget.addToGroup('trucksDDGroup');
+
+//
+
+
+
+movePlayersIntoPlay();
+
+	
+}
+
+
+
+// helpers 
+
+
+function getUrlParam( name )
+{
+// get parameter from url 
+  name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+  var regexS = "[\\?&]"+name+"=([^&#]*)";
+  var regex = new RegExp( regexS );
+  var results = regex.exec( window.location.href );
+  if( results == null )
+    return "null";
+  else
+    return results[1];
+}
+
+</script>
+</body>
+</html>
+

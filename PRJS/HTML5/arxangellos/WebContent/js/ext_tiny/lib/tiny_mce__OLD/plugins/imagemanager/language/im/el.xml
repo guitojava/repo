@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language-pack>
+  <header>
+    <!-- Please fill in contact information (author & email), we might contact you when we are doing updates -->
+    <!-- You will also have the chance to participate in beta releases of new versions -->
+    <author>Nick Βaloglou (nikolaosbaloglou@hotmail.com)</author>
+    <version minor="0" major="1" releasedate="2008-08-04" />
+    <description>
+			This is the Greek language pack for the MCImageManager.
+		</description>
+  </header>
+  <language code="el" title="Greek" dir="ltr">
+    <group target="common">
+      <item name="title">Moxiecode Διαχείριση Εικόνων</item>
+      <item name="filemanager">Moxiecode Διαχείριση Αρχείων</item>
+      <item name="createdir">Δημιουργία Φακέλου</item>
+      <item name="refresh">Ανανέωση</item>
+      <item name="upload">Εισαγωγή</item>
+      <item name="help">Βοήθεια</item>
+      <item name="edit">Επεξεργασία</item>
+      <item name="deleteit">Διαγραφή</item>
+      <item name="view">Επισκόπηση</item>
+      <item name="insert">Εισαγωγή</item>
+      <item name="add_favorite">Προσθήκη στα Αγαπημένα</item>
+      <item name="directory">Επιλεγμένος Φάκελος</item>
+      <item name="removefavorite">Διαγραφή από τα Αγαπημένα</item>
+      <item name="loading">Φόρτωμα...</item>
+      <item name="filter">Φίλτρο</item>
+      <item name="alert_ok">OK</item>
+      <item name="confirm_yes">Ναι</item>
+      <item name="confirm_no">Όχι</item>
+      <item name="prev">Προηγ.</item>
+      <item name="next">Επόμ.</item>
+      <item name="image_data">Ανάκτηση δεδομένων φωτογραφίας, παρακαλώ περιμένετε...</item>
+    </group>
+    <group target="button">
+      <!-- think about the length of the text -->
+      <item name="create">Δημιουργία</item>
+      <item name="cancel">Ακύρωση</item>
+      <item name="apply">Εφαρμογή</item>
+      <item name="save">Αποθήκευση</item>
+    </group>
+    <group target="error">
+      <!-- common -->
+      <item name="demo">Αυτή η ενέργεια δεν επιτρέπεται στη λειτουργία επίδειξης.</item>
+      <item name="no_filesystem">Δεν βρέθηκε ο φάκελος: {path}.</item>
+      <item name="no_access">Δεν επιτρέπεται η πρόσβαση σε αυτό το αρχείο/φάκελο.</item>
+      <item name="no_write_access">Δεν επιτρέπεται η εγγραφή σε αυτό το φάκελο.</item>
+      <item name="file_not_exists">Το αρχείο/φάκελος δεν βρέθηκε.</item>
+      <item name="invalid_filename">Το όνομα του αρχείου δεν είναι έγκυρο.</item>
+      <item name="remove_favorite_failed">Η διαγραφή από τα αγαπημένα απέτυχε. Παρακαλώ προσπαθήστε ξανά.</item>
+      <!-- create dir -->
+      <item name="template_missing">Δεν βρέθηκε το επιλεγμένο πρότυπο.</item>
+      <item name="folder_exists">Υπάρχει ήδη ένας φάκελος με αυτό το όνομα.</item>
+      <item name="createdir_failed">Πρόβλημα. Η δημιουργία του φακέλου είναι αδύνατη.</item>
+      <!-- upload -->
+      <item name="upload_failed">Η εισαγωγή απέτυχε, ελέξτε τα δικαιώματα εγγραφής του φακέλου.</item>
+      <item name="file_exists">Υπάρχει ήδη ένα αρχείο με αυτό το όνομα.</item>
+      <item name="error_to_large">Το αρχείο είναι πολύ μεγάλο.</item>
+      <!-- delete -->
+      <item name="delete_failed">Η διαγραφή του αρχείου/ων απέτυχε.</item>
+      <!-- image edit -->
+      <item name="crop_failed">Αδύνατη αποκοπή.</item>
+      <item name="resize_failed">Αδύνατη αυξομείωση.</item>
+      <item name="rotate_failed">Αδύνατη περιστροφή.</item>
+      <item name="flip_failed">Αδύνατη αναστροφή.</item>
+      <item name="save_failed">Η αποθήκευση απέτυχε.</item>
+    </group>
+    <group target="message">
+      <!-- common -->
+      <item name="save_success">Αποθήκευση επιτυχής.</item>
+      <item name="keepalive">Keepalive request.</item>
+      <!-- delete -->
+      <item name="delete_success">Διαγραφή του αρχείου/ων επιτυχής</item>
+      <!-- create dir -->
+      <item name="directory_ok">Ο φάκελος δημιουργήθηκε.</item>
+      <!-- upload -->
+      <item name="upload_ok">Εισαγωγή επιτυχής.</item>
+      <!-- image edit -->
+      <item name="crop_success">Αποκοπή επιτυχής.</item>
+      <item name="resize_success">Αυξομείωση επιτυχής.</item>
+      <item name="rotate_success">Περιστροφή επιτυχής.</item>
+      <item name="flip_success">Αναστροφή επιτυχής.</item>
+    </group>
+    <group target="panel">
+      <item name="categories">Κατηγορίες</item>
+      <item name="folders">Φάκελοι</item>
+      <item name="favorites">Αγαπημένα</item>
+      <item name="history">Ιστορικό</item>
+    </group>
+    <group target="view">
+      <item name="title">Επισκόπηση</item>
+      <item name="mode">Λειτουργία επισκόπησης:</item>
+      <item name="thumbnail">Εικονίδια</item>
+      <item name="textlist">Λίστα</item>
+      <item name="images_per_page">εικόνες/σελίδα</item>
+      <item name="confirm_delete">Είστε σίγουροι για τη διαγραφή του αρχείου;</item>
+      <item name="keyboard_next">Πλήκτρα συντόμευσης: SPACE,N,RIGHTARROW,PAGE DOWN</item>
+      <item name="keyboard_prev">Πλήκτρα συντόμευσης: P,LEFTARROW,PAGE UP</item>
+      <item name="dimensions">Διαστάσεις</item>
+      <item name="confirm_remove_favorite">Είστε σίγουροι για τη διαγραφή από τα αγαπημένα;</item>
+    </group>
+    <group target="createdir">
+      <item name="title">Δημιουργία φακέλου</item>
+      <item name="description">Εισάγετε ένα όνομα για το φάκελο που θέλετε να δημιουργήσετε.</item>
+      <item name="template">Πρότυπο:</item>
+      <item name="select_template">-- Επιλογή πρότυπου --</item>
+      <item name="directory_name">Όνομα φακέλου:</item>
+      <item name="create_in">Δημιουργία στο:</item>
+      <item name="progress">Δημιουργία φακέλου, παρακαλώ περιμένετε...</item>
+    </group>
+    <group target="upload">
+      <item name="title">Εισαγωγή</item>
+      <item name="description">Χρησιμοποιήστε.</item>
+      <item name="valid_extensions">Έγκυρες επεκτάσεις:</item>
+      <item name="max_upload_size">Μέγιστο μέγεθος:</item>
+      <item name="file_to_upload">Αρχείο για εισαγωγή:</item>
+      <item name="as_file_name">Με το όνομα:</item>
+      <item name="path">Φάκελος: </item>
+      <item name="button_upload">Εισαγωγή</item>
+      <item name="browse">Προσθήκη αρχείου/ων</item>
+      <item name="progress">Εισαγωγή...</item>
+      <item name="upload_warn">Τα αρχεία εισάγονται, είστε σίγουροι ότι θέλετε να ακυρώσετε τη διαδικασία;</item>
+    </group>
+    <group target="edit_image">
+      <item name="title">Moxiecode Διαχείριση Εικόνων</item>
+      <item name="save">Αποθήκευση</item>
+      <item name="revert">Επαναφορά</item>
+      <item name="crop">Αποκοπή</item>
+      <item name="resize">Αυξομείωση</item>
+      <item name="please_wait">Επεξεργασία εικόνας, παρακαλώ περίμενετε...</item>
+      <item name="constrain">Διατήρηση αναλογίας</item>
+      <item name="left">Αριστερά</item>
+      <item name="top">Πάνω</item>
+      <item name="width">Πλάτος</item>
+      <item name="height">Ύψος</item>
+      <item name="save_as">Αποθήκευση ως</item>
+      <item name="flip">Αναστροφή</item>
+      <item name="rotate">Περιστροφή</item>
+      <item name="reload">Επαναφόρτωμα</item>
+      <item name="horizontal">Οριζόντια</item>
+      <item name="vertical">Κάθετα</item>
+      <item name="saving_wait">Αποθήκευση εικόνας, παρακαλώ περίμενετε...</item>
+      <item name="confirm_revert">Είστε σίγουροι ότι θέλετε να επαναφέρετε τις τελευταίες ρυθμίσεις;</item>
+      <item name="loading">Φόρτωμα εικόνας, παρακαλώ περίμενετε...</item>
+    </group>
+    <group target="tinymce">
+      <item name="insertimage_desc">Εισαγωγή εικόνας</item>
+    </group>
+  </language>
+</language-pack>

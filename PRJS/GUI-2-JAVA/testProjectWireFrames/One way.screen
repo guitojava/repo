@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="3" x="23" y="13" measuredWidth="1002" measuredHeight="517">
+    <screen xsi:type="model:Screen" href="One%20way%20-%20Template.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="4" x="160" y="137" width="209" height="26" measuredWidth="209" measuredHeight="26" link="One%20way%20-%20JFK.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,65 @@
+# See https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html 
+
+app:
+  name: karpathoscard
+  creator: 'george leon'
+info:
+  app:
+    javaVersion: ${build.javaVersion}
+    applicationName: ${application.name}
+    buildEncoding: ${build.sourceEncoding}
+    buildVersion: ${build.version}
+    buildTimestamp: ${build.timestamp}
+    springbootVersion: ${build.springbootVersion}
+spring:
+  jersey:
+    application-path: /api
+  jpa:
+    show-sql: true
+    generate-ddl: false
+    hibernate.ddl-auto: none
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    properties.hibernate.temp.use_jdbc_metadata_defaults: false
+    properties.hibernate.jdbc.time_zone: UTC
+  datasource:
+    url: jdbc:postgresql://localhost/karpacard
+    username: karpacard
+    password: karpacard
+    driver-class-name: org.postgresql.Driver
+server:
+  port: 8000
+  use-forward-headers: true
+  servlet-path: /
+  tomcat:
+    basedir: target/tomcat/
+    accesslog:
+      directory: .
+      enabled: true
+      prefix: access
+      suffix: .log
+      rotate: false
+      buffered: false  # don't buffer output for local testing
+      pattern: "[%{yyyy-MM-dd HH:mm:ss.SSS Z}t] [%{sessionId}r/%{requestId}r] %{X-Forwarded-For}i \"%r\" %s %b %Fms \"%{User-Agent}i\""
+management:
+  context-path: /
+  port: 8001
+logging:
+  file: target/tomcat/logic.log
+  level.: INFO
+  pattern:
+    console: "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS Z}){faint} [%X{sessionId}/%X{requestId}] %clr(%5level) %clr(---){faint} [%15.15thread] %cyan(%-40.40class{1.}:%-4.4line) %clr(:){faint} %msg%n%xEx" 
+    file: "[%d{yyyy-MM-dd HH:mm:ss.SSS Z}] [%X{sessionId}/%X{requestId}] %-5level %class{40}:%line - %msg%n%xEx"
+endpoints:
+  enabled: false
+  health:
+    id: health
+    enabled: true
+    path: /healthcheck
+    sensitive: false
+  info:
+    id: info
+    enabled: true
+    path: /version
+    sensitive: false
+liquibase:
+  change-log: classpath:/db/main-db-changelog.xml

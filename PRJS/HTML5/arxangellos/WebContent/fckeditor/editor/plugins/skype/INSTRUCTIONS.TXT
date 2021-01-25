@@ -1,0 +1,10 @@
+Please read the instructions before installing here:
+
+ FCKEditor Skype Plugin for LAMS:
+   http://wiki.lamsfoundation.org/x/AIGI
+
+Thanks
+
+Ernie
+15-Jan-2009
+

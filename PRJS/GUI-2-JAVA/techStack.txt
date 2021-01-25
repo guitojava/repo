@@ -1,0 +1,25 @@
+
+
+Requierments Gathering 
+Create Books / Form - Reports ( Letex - Word - pdf - xls - cvs ) 
+Office Documents Word , Excel  ,  Powerpoint
+WebSites - e-Shops 
+Front End GUIs jquery - js typescript  various plugins 
+Java FX 8 Zulu - CRUD Applications - (Master-Detail relationships) 
+PHP - CodeIgniter - Data Tables, Qcode, reports html/pdf Generation  
+NodeJs
+Java EE 8 
+Linux / Windows 
+Vaadin 8 - qooxdoo 
+REST/SOAP APIS   xsds, xtsl xsl regRex , wsdls   
+Parsing Logic / Business Rules EasyRules Java / groovy-lang.org 
+SpringBoot / Dropwizard /sparkjava  
+RDBS (PostgreSQL, sqlite ) - NoSQL - Couchbase / Redis 
+Scheduling Cron/ .. Jobs 
+Servers Security - 
+Intellij - DBeaver - SQuirreL SQL - www.sql-workbench.eu
+ZooKeeper - Spark ( https://spark.apache.org/ ) 
+https://bookkeeper.apache.org/
+https://herddb.org/
+
+

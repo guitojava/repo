@@ -1,0 +1,127 @@
+/1. ΧΑΡΤΙΑ ΙΔΡΥΣΗΣ/
+/1. ΧΑΡΤΙΑ ΙΔΡΥΣΗΣ/ΒΙΒΛΙΑ ΥΠΟΧΡΕΩΤΙΚΗΣ ΤΗΡΗΣΗΣ/
+/1. ΧΑΡΤΙΑ ΙΔΡΥΣΗΣ/ΣΥΣΤΑΣΗ-ΠΡΟΣΩΠΙΚΑ ΕΓΓΡΑΦΑ/
+/1. ΧΑΡΤΙΑ ΙΔΡΥΣΗΣ/ΤΡΟΠΟΠΟΙΗΣΕΙΣ/
+/1. ΧΑΡΤΙΑ ΙΔΡΥΣΗΣ/ΦΑΚΕΛΟΣ ΣΥΣΤΑΣΗΣ/
+/2. ΠΡΟΣΩΠΙΚΟ/
+/2. ΠΡΟΣΩΠΙΚΟ/ΙΚΑ/
+/2. ΠΡΟΣΩΠΙΚΟ/ΟΑΕΔ/
+/2. ΠΡΟΣΩΠΙΚΟ/ΠΡΟΣΩΠΙΚΟ/
+/3. ΕΦΟΡΙΑ/
+/3. ΕΦΟΡΙΑ/ΙΣΟΛΟΓΙΣΜΟΣ/
+/3. ΕΦΟΡΙΑ/ΜΕΤΑΒΟΛΕΣ ΔΟΥ/
+/3. ΕΦΟΡΙΑ/ΜΥΦ-ΣΥΓΚΕΝΤΡΩΤΙΚΕΣ ΚΑΤΑΣΤΑΣΕΙΣ/
+/3. ΕΦΟΡΙΑ/ΠΑΡΑΚΡΑΤΟΥΜΕΝΟΙ ΦΟΡΟΙ/
+/4. ΠΡΑΚΤΙΚΑ/
+/5. BACKUPS/
+/6. ΣΥΜΦΩΝΗΤΙΚΑ/
+/6. ΣΥΜΦΩΝΗΤΙΚΑ/ΙΔ. ΣΥΜΦΩΝΗΤΙΚΑ/
+/6. ΣΥΜΦΩΝΗΤΙΚΑ/ΛΟΙΠΑ ΣΥΜΦΩΝΙΤΙΚΑ/
+/6. ΣΥΜΦΩΝΗΤΙΚΑ/ΜΙΣΘΩΤΗΡΙΑ/
+/7. ΛΟΙΠΑ ΑΡΧΕΙΑ/
+/12. Primer Connect (__YEAR_TAG__)/
+/12. Primer Connect (__YEAR_TAG__)/1. Ιανουάριος/
+/12. Primer Connect (__YEAR_TAG__)/2. Φεβρουάριος/
+/12. Primer Connect (__YEAR_TAG__)/3. Μάρτιος/
+/12. Primer Connect (__YEAR_TAG__)/4. Απρίλιος/
+/12. Primer Connect (__YEAR_TAG__)/5. Μάιος/
+/12. Primer Connect (__YEAR_TAG__)/6. Ιούνιος/
+/12. Primer Connect (__YEAR_TAG__)/7. Ιούλιος/
+/12. Primer Connect (__YEAR_TAG__)/8. Αύγουστος/
+/12. Primer Connect (__YEAR_TAG__)/9. Σεπτέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/10. Οκτώβριος/
+/12. Primer Connect (__YEAR_TAG__)/11. Νοέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/12. Δεκέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/13. ΦΠΑ/
+/12. Primer Connect (__YEAR_TAG__)/13. ΦΠΑ/1. Ιανουάριος/
+/12. Primer Connect (__YEAR_TAG__)/13. ΦΠΑ/2. Φεβρουάριος/
+/12. Primer Connect (__YEAR_TAG__)/13. ΦΠΑ/3. Μάρτιος/
+/12. Primer Connect (__YEAR_TAG__)/13. ΦΠΑ/4. Απρίλιος/
+/12. Primer Connect (__YEAR_TAG__)/13. ΦΠΑ/5. Μάιος/
+/12. Primer Connect (__YEAR_TAG__)/13. ΦΠΑ/6. Ιούνιος/
+/12. Primer Connect (__YEAR_TAG__)/13. ΦΠΑ/7. Ιούλιος/
+/12. Primer Connect (__YEAR_TAG__)/13. ΦΠΑ/8. Αύγουστος/
+/12. Primer Connect (__YEAR_TAG__)/13. ΦΠΑ/9. Σεπτέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/13. ΦΠΑ/10. Οκτώβριος/
+/12. Primer Connect (__YEAR_TAG__)/13. ΦΠΑ/11. Νοέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/13. ΦΠΑ/12. Δεκέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/14. Μισθοδοσία/
+/12. Primer Connect (__YEAR_TAG__)/14. Μισθοδοσία/1. Ιανουάριος/
+/12. Primer Connect (__YEAR_TAG__)/14. Μισθοδοσία/2. Φεβρουάριος/
+/12. Primer Connect (__YEAR_TAG__)/14. Μισθοδοσία/3. Μάρτιος/
+/12. Primer Connect (__YEAR_TAG__)/14. Μισθοδοσία/4. Απρίλιος/
+/12. Primer Connect (__YEAR_TAG__)/14. Μισθοδοσία/5. Μάιος/
+/12. Primer Connect (__YEAR_TAG__)/14. Μισθοδοσία/6. Ιούνιος/
+/12. Primer Connect (__YEAR_TAG__)/14. Μισθοδοσία/7. Ιούλιος/
+/12. Primer Connect (__YEAR_TAG__)/14. Μισθοδοσία/8. Αύγουστος/
+/12. Primer Connect (__YEAR_TAG__)/14. Μισθοδοσία/9. Σεπτέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/14. Μισθοδοσία/10. Οκτώβριος/
+/12. Primer Connect (__YEAR_TAG__)/14. Μισθοδοσία/11. Νοέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/14. Μισθοδοσία/12. Δεκέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/15. Λοιπά αρχεία/
+/12. Primer Connect (__YEAR_TAG__)/15. Λοιπά αρχεία/1. Ιανουάριος/
+/12. Primer Connect (__YEAR_TAG__)/15. Λοιπά αρχεία/2. Φεβρουάριος/
+/12. Primer Connect (__YEAR_TAG__)/15. Λοιπά αρχεία/3. Μάρτιος/
+/12. Primer Connect (__YEAR_TAG__)/15. Λοιπά αρχεία/4. Απρίλιος/
+/12. Primer Connect (__YEAR_TAG__)/15. Λοιπά αρχεία/5. Μάιος/
+/12. Primer Connect (__YEAR_TAG__)/15. Λοιπά αρχεία/6. Ιούνιος/
+/12. Primer Connect (__YEAR_TAG__)/15. Λοιπά αρχεία/7. Ιούλιος/
+/12. Primer Connect (__YEAR_TAG__)/15. Λοιπά αρχεία/8. Αύγουστος/
+/12. Primer Connect (__YEAR_TAG__)/15. Λοιπά αρχεία/9. Σεπτέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/15. Λοιπά αρχεία/10. Οκτώβριος/
+/12. Primer Connect (__YEAR_TAG__)/15. Λοιπά αρχεία/11. Νοέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/15. Λοιπά αρχεία/12. Δεκέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/16. Προσλήψεις/
+/12. Primer Connect (__YEAR_TAG__)/16. Προσλήψεις/1. Ιανουάριος/
+/12. Primer Connect (__YEAR_TAG__)/16. Προσλήψεις/2. Φεβρουάριος/
+/12. Primer Connect (__YEAR_TAG__)/16. Προσλήψεις/3. Μάρτιος/
+/12. Primer Connect (__YEAR_TAG__)/16. Προσλήψεις/4. Απρίλιος/
+/12. Primer Connect (__YEAR_TAG__)/16. Προσλήψεις/5. Μάιος/
+/12. Primer Connect (__YEAR_TAG__)/16. Προσλήψεις/6. Ιούνιος/
+/12. Primer Connect (__YEAR_TAG__)/16. Προσλήψεις/7. Ιούλιος/
+/12. Primer Connect (__YEAR_TAG__)/16. Προσλήψεις/8. Αύγουστος/
+/12. Primer Connect (__YEAR_TAG__)/16. Προσλήψεις/9. Σεπτέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/16. Προσλήψεις/10. Οκτώβριος/
+/12. Primer Connect (__YEAR_TAG__)/16. Προσλήψεις/11. Νοέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/16. Προσλήψεις/12. Δεκέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/17. Αποχωρήσεις/
+/12. Primer Connect (__YEAR_TAG__)/17. Αποχωρήσεις/1. Ιανουάριος/
+/12. Primer Connect (__YEAR_TAG__)/17. Αποχωρήσεις/2. Φεβρουάριος/
+/12. Primer Connect (__YEAR_TAG__)/17. Αποχωρήσεις/3. Μάρτιος/
+/12. Primer Connect (__YEAR_TAG__)/17. Αποχωρήσεις/4. Απρίλιος/
+/12. Primer Connect (__YEAR_TAG__)/17. Αποχωρήσεις/5. Μάιος/
+/12. Primer Connect (__YEAR_TAG__)/17. Αποχωρήσεις/6. Ιούνιος/
+/12. Primer Connect (__YEAR_TAG__)/17. Αποχωρήσεις/7. Ιούλιος/
+/12. Primer Connect (__YEAR_TAG__)/17. Αποχωρήσεις/8. Αύγουστος/
+/12. Primer Connect (__YEAR_TAG__)/17. Αποχωρήσεις/9. Σεπτέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/17. Αποχωρήσεις/10. Οκτώβριος/
+/12. Primer Connect (__YEAR_TAG__)/17. Αποχωρήσεις/11. Νοέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/17. Αποχωρήσεις/12. Δεκέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/18. Τροποποιήσεις/
+/12. Primer Connect (__YEAR_TAG__)/18. Τροποποιήσεις/1. Ιανουάριος/
+/12. Primer Connect (__YEAR_TAG__)/18. Τροποποιήσεις/2. Φεβρουάριος/
+/12. Primer Connect (__YEAR_TAG__)/18. Τροποποιήσεις/3. Μάρτιος/
+/12. Primer Connect (__YEAR_TAG__)/18. Τροποποιήσεις/4. Απρίλιος/
+/12. Primer Connect (__YEAR_TAG__)/18. Τροποποιήσεις/5. Μάιος/
+/12. Primer Connect (__YEAR_TAG__)/18. Τροποποιήσεις/6. Ιούνιος/
+/12. Primer Connect (__YEAR_TAG__)/18. Τροποποιήσεις/7. Ιούλιος/
+/12. Primer Connect (__YEAR_TAG__)/18. Τροποποιήσεις/8. Αύγουστος/
+/12. Primer Connect (__YEAR_TAG__)/18. Τροποποιήσεις/9. Σεπτέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/18. Τροποποιήσεις/10. Οκτώβριος/
+/12. Primer Connect (__YEAR_TAG__)/18. Τροποποιήσεις/11. Νοέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/18. Τροποποιήσεις/12. Δεκέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/19. Μηνιαίες πληρωμές/
+/12. Primer Connect (__YEAR_TAG__)/19. Μηνιαίες πληρωμές/1. Ιανουάριος/
+/12. Primer Connect (__YEAR_TAG__)/19. Μηνιαίες πληρωμές/2. Φεβρουάριος/
+/12. Primer Connect (__YEAR_TAG__)/19. Μηνιαίες πληρωμές/3. Μάρτιος/
+/12. Primer Connect (__YEAR_TAG__)/19. Μηνιαίες πληρωμές/4. Απρίλιος/
+/12. Primer Connect (__YEAR_TAG__)/19. Μηνιαίες πληρωμές/5. Μάιος/
+/12. Primer Connect (__YEAR_TAG__)/19. Μηνιαίες πληρωμές/6. Ιούνιος/
+/12. Primer Connect (__YEAR_TAG__)/19. Μηνιαίες πληρωμές/7. Ιούλιος/
+/12. Primer Connect (__YEAR_TAG__)/19. Μηνιαίες πληρωμές/8. Αύγουστος/
+/12. Primer Connect (__YEAR_TAG__)/19. Μηνιαίες πληρωμές/9. Σεπτέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/19. Μηνιαίες πληρωμές/10. Οκτώβριος/
+/12. Primer Connect (__YEAR_TAG__)/19. Μηνιαίες πληρωμές/11. Νοέμβριος/
+/12. Primer Connect (__YEAR_TAG__)/19. Μηνιαίες πληρωμές/12. Δεκέμβριος/
+/13. ΦΥΣΙΚΑ ΕΓΓΡΑΦΑ/
+/99. Unsorted/

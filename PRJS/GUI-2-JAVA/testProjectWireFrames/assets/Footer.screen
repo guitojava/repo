@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Text" id="1" x="10" y="10" width="980" height="41" text="Legal notice: Search results provided are the property of ITA Software, Inc. and may be protected by trademark, copyright, patent and other laws. Any use of the search results is governed by our [Terms of Use Policy] and End–User License. © 1999–2011 ITA Software, Inc. (version 0.7.20120825.1) " measuredWidth="980" measuredHeight="41" textAlignment="Center" foreground="#666666">
+    <font size="12px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

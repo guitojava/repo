@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--
+ * FCKeditor - The text editor for Internet - http://www.fckeditor.net
+ * Copyright (C) 2003-2007 Frederico Caldeira Knabben
+ *
+ * == BEGIN LICENSE ==
+ *
+ * Licensed under the terms of any of the following licenses at your
+ * choice:
+ *
+ *  - GNU General Public License Version 2 or later (the "GPL")
+ *    http://www.gnu.org/licenses/gpl.html
+ *
+ *  - GNU Lesser General Public License Version 2.1 or later (the "LGPL")
+ *    http://www.gnu.org/licenses/lgpl.html
+ *
+ *  - Mozilla Public License Version 1.1 or later (the "MPL")
+ *    http://www.mozilla.org/MPL/MPL-1.1.html
+ *
+ * == END LICENSE ==
+ *
+ * Skype Plugin.
+-->
+<html>
+	<head>
+		<title>Skype status button</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta content="noindex, nofollow" name="robots">
+		<script language="javascript">
+
+var oEditor = window.parent.InnerDialogLoaded() ;
+var FCKLang = oEditor.FCKLang ;
+var SkypeStatusCommand = oEditor.SkypeStatusCommand ;
+
+window.onload = function ()
+{
+	// First of all, translate the dialog box texts
+	oEditor.FCKLanguageManager.TranslatePage( document ) ;
+
+	// Show the "Ok" button.
+	window.parent.SetOkButton( true ) ;
+	
+//	SelectField( 'txtName' ) ;
+}
+
+var eSelected = oEditor.FCKSelection.GetSelectedElement() ;
+
+
+
+function Ok()
+{
+ if(document.getElementById('txtName').value != "")
+ {
+	var sValue = document.getElementById('txtName').value ;
+	var bValue = 1;
+	for(var i = 0; i < document.form1.but.length; i++) {
+		if(document.form1.but[i].checked) {
+			bValue = document.form1.but[i].value;
+		}
+		}
+		
+
+	SkypeStatusCommand.Add( sValue, bValue ) ;
+	return true ;  
+ }
+ else 
+ {
+     alert('Skype name is not entered');
+	 return false;
+ }
+}
+
+		</script>
+	</head>
+	<body scroll="no" style="OVERFLOW: hidden">
+		<table height="100%" cellSpacing="0" cellPadding="0" width="100%" border="0">
+			<tr>
+				<td>
+					<table cellSpacing="0" cellPadding="0" align="center" border="0">
+						<tr>
+							<td>
+ 					Note: go into Skype ->Tools-->Options-->Privacy settings and check Allow my online status to be shown on the Web 
+                    <br>
+                    <a href="http://ui.skype.com/ui/0/5.1.0.104.259/en/go/help.guide.webpresence" target="_blank" > More info here ... </a> 
+						</td>
+						</tr>
+
+
+						<tr>
+							<td>
+							 <br>
+								<span fckLang="SkypeDlgName">Skype vardas:</span><br>
+								<input id="txtName" type="text">							</td>
+						</tr>
+						<tr>
+						  <td><p><span fckLang="SkypeDlgButName">Skype mygtuko tipas:</span></p>
+					        <form name="form1" method="post" action="">
+					          <table border="0" cellspacing="0" cellpadding="0">
+                                
+                               
+                                <tr>
+                                  <td><label>
+                                    <input type="radio" name="but" id="but" value="1">
+                                  </label></td>
+                                  <td><img src="1.png" width="150" height="60"></td>
+                                </tr>
+                                <tr>
+                                  <td><input type="radio" name="but" id="but" value="2"></td>
+                                  <td><img src="2.png" width="114" height="20"></td>
+                                </tr>
+                                <tr>
+                                  <td><input type="radio" name="but" id="but" value="3"></td>
+                                  <td><img src="3.png" width="182" height="44"></td>
+                                </tr>
+                                <tr>
+                                  <td><input type="radio" name="but" id="but" value="4"></td>
+                                  <td><img src="4.png" alt="" width="26" height="26"></td>
+                                </tr>
+                              </table>
+                                                        </form>
+					        <p>&nbsp;</p>
+					      </td>
+					  </tr>
+					</table>
+			  </td>
+			</tr>
+		</table>
+	</body>
+</html>

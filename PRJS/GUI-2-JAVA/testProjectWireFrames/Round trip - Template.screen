@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="54" y="45" measuredWidth="1002" measuredHeight="517">
+    <screen xsi:type="model:Screen" href="Search%20-%20Template.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="72" y="170" text="Departing from" measuredWidth="97" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="4" x="191" y="170" width="209" text="~Airport code or city name~" measuredWidth="209" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="72" y="196" text="Destination" measuredWidth="73" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="6" x="191" y="196" width="209" text="~Airport code or city name~" measuredWidth="209" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="7" x="405" y="170" text="Nearby" measuredWidth="46" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="8" x="405" y="196" text="Nearby" measuredWidth="46" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="72" y="220" text="Dates" measuredWidth="39" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="10" x="191" y="220" text="Search exact dates" measuredWidth="136" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="11" x="191" y="237" text="See calendar of lowest fares" measuredWidth="188" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="72" y="263" text="Departure date" measuredWidth="97" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="13" x="191" y="263" width="97" text="~mm/dd/yyyy~" measuredWidth="97" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="72" y="289" text="Return date" measuredWidth="76" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="15" x="191" y="289" width="97" text="~mm/dd/yyyy~" measuredWidth="97" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="72" y="315" text="Adults" measuredWidth="43" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="17" x="191" y="315" width="49" text="1" measuredWidth="49" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="18" x="242" y="315" text="Children, seniors" measuredWidth="103" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="19" x="191" y="356" text="Advanced search options" measuredWidth="174" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="20" x="417" y="392" width="78" text="Search" measuredWidth="78" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

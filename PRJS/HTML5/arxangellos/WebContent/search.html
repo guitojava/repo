@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+<link rel="shortcut icon" href="./css/img/silk/icons/world.png" 	type="image/x-icon" />
+	
+
+<style type="text/css">
+  html { height: 100% }
+  body { height: 5000px; margin: 0px; padding: 0px }
+  
+  a.colorlink:link {
+	color: 	blue ;
+	text-decoration: none;
+}
+
+a.colorlink:visited {
+	color: 	blue; 
+	text-decoration: none;
+}
+
+a.colorlinkhover {
+	text-decoration: none;
+}
+  
+</style>
+
+<title>arxangellos - MyWebWolrd</title>
+
+<script type="text/javascript" src="./js/ext-core-3.1.0/ext-core.js"></script>
+<script type="text/javascript" src="./gamesApp/globals.js"></script>
+
+
+<script type="text/javascript">
+
+
+	Ext.getUrlParam = function(param) {
+		var params = Ext.urlDecode(location.search.substring(1));
+		return param ? params[param] : params;
+	};
+
+	
+	
+	function getPages(   ) {
+
+
+		var nomos = document.getElementById("nomos").value;
+		var pageType = document.getElementById("pageType").value;
+		
+	//	alert (   "nomos"+ nomos  +"  \npageType:" +  pageType ) 
+
+		
+		var searchType = "pageSearch";
+		
+		
+	//	if (  document.getElementById('search_terms').value.length > 0) {
+
+			Ext.Ajax.request( {
+				method : 'POST', // noslz
+				url : PublicServlet,
+				params : {
+					sid : Ext.getUrlParam('sid'),
+					action : 'searchForMemopages',
+					searchType : searchType,
+					nomos : nomos,
+					pageType : pageType,
+					searchTerms : document.getElementById('search_terms').value
+				},
+				scope : this,
+				success : function(res) {
+
+				//var obj = Ext.util.JSON.decode(res.responseText);
+
+				Ext.fly('page_div').update(res.responseText, true);
+
+				/*		
+				alert (
+						' Saved the map / address information  : '
+						//+' \n latlng = '   + document.getElementById('latlng').value 
+						+'\n\n  '   + document.getElementById('address').value 
+							 );		
+				 */
+
+			}// success
+			});// Ext.Ajax.request
+
+	//	} // if 
+
+	}// getPages fun
+
+
+
+
+	function getCateg(  ac  ) {
+
+
+		//alert (ac );
+		
+		
+			Ext.Ajax.request( {
+				method : 'POST', // noslz
+				url : PublicServlet,
+				params : {
+					action : 'getCategs',
+					areaCode: 	ac
+				},
+				scope : this,
+				success : function(res) {
+				//var obj = Ext.util.JSON.decode(res.responseText);
+				Ext.fly('pageType').update(res.responseText, true);
+
+
+				getPages();
+				
+				/*		
+				alert (
+						' Saved the map / address information  : '
+						//+' \n latlng = '   + document.getElementById('latlng').value 
+						+'\n\n  '   + document.getElementById('address').value 
+							 );		
+				 */
+
+			}// success
+			});// Ext.Ajax.request
+			
+
+	}// getPages fun
+
+
+
+
+	function getNomous(   ) {
+		
+	Ext.Ajax.request( {
+		method : 'POST', // noslz
+		url : PublicServlet,
+		params : {
+			action : 'getNomous'
+		},
+		scope : this,
+		success : function(res) {
+
+
+		Ext.fly('nomos').update(res.responseText, true);
+
+
+	}// success
+	});// Ext.Ajax.request
+
+
+
+}// getPages fun
+
+
+	Ext.onReady(function() {
+	//	alert ("ready ");
+		getNomous(   )
+		getCateg( 0  ) ;
+		
+	});
+
+
+
+
+
+
+	
+	function initialize() {
+
+		document.getElementById('search_terms').focus();
+	
+		
+	}
+</script>
+</head>
+
+<body onload="initialize()">
+
+  <div  style=" font-family: 'Courier New', monospace; "  > 	
+  	<!-- <BUTTON onclick=" saveChanges(); " TYPE="submit"> <IMG SRC="../css/img/silk/icons/table_save.png" ALIGN="absmiddle"> Save Address </BUTTON>
+     --> 
+     
+    <br/>
+   	   &nbsp;&nbsp;&nbsp; <a target="_blank" class="colorlink" style=" font-size:11px" href="login.html" > είσοδος / εγγραφή .  Είναι και θα είναι πάντα δωρεάν!</a> 
+  
+     <br/>
+     <br/>
+     &nbsp;&nbsp;&nbsp;  <a class="colorlink"  style=" font-size:11px"  href="searchUser.html" >Αναζήτηση σελίδας με όνομα δημιουργού  </a>   &nbsp;&nbsp;&nbsp;  <a class="colorlink"  style=" font-size:11px"  href="searchCalander.html" >Αναζήτηση ημερολόγιου με όνομα δημιουργού  </a>
+  
+     <br/>
+     <br/>
+     
+    <!--   <br>
+     &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <small> <b> επιλογες αναζήτησης </b> &nbsp;&nbsp;&nbsp; <img src="./css/img/silk/icons/page.png" > όνομα <b>σελίδας</b>   :    <INPUT type="checkbox"  style="height='30px' width='30px' " id="pageSearchType" onclick=" document.getElementById('userSearchType').checked = false ; document.getElementById('calSearchType').checked = false ; "	NAME="pageSearchType" checked="checked" VALUE="pageSearch"> 
+    
+     &nbsp;&nbsp;&nbsp; <img src="./css/img/silk/icons/user.png" > όνομα <b>δημιουργού</b> :    <INPUT type="checkbox" id="userSearchType"	onclick=" document.getElementById('pageSearchType').checked = false ; document.getElementById('calSearchType').checked = false ;  "	NAME="userSearchType"       VALUE="userSearch"></small>
+     
+      -->
+
+<!--     &nbsp;&nbsp;&nbsp; <small> <b>*</b> πληκτρολόγισε το  <img src="./css/img/silk/icons/user.png" > όνομα <b>δημιουργού</b> </small>
+    &nbsp;&nbsp;&nbsp; <small> <b>*</b> πληκτρολόγισε το  <img src="./css/img/silk/icons/page.png" > όνομα <b>σελίδας</b>  
+ -->
+	
+	<!-- 
+	
+	 <br>
+     &nbsp;&nbsp;&nbsp; Βαση όνομα <b>σελίδας</b>:     
+     &nbsp;&nbsp;&nbsp; προβολή <INPUT type="checkbox" id="pageSearchType" 	onclick=" document.getElementById('userSearchType').checked = false ; document.getElementById('calSearchType').checked = false ; "	NAME="pageSearchType" checked="checked" VALUE="pageSearch">
+     ως λίστα άρθρων  
+    <br>
+    &nbsp;&nbsp;&nbsp;  ή όνομα <b>δημιουργού</b>:    
+    &nbsp;&nbsp;&nbsp; προβολή  <INPUT type="checkbox" id="userSearchType"	onclick=" document.getElementById('pageSearchType').checked = false ; document.getElementById('calSearchType').checked = false ;  "	NAME="userSearchType"       VALUE="userSearch">
+    ως <b>λίστα</b> άρθρων  
+	&nbsp;&nbsp;&nbsp; <INPUT type="checkbox" id="calSearchType" 	onclick=" document.getElementById('userSearchType').checked = false ; document.getElementById('pageSearchType').checked = false ; "	NAME="calSearchType"  		VALUE="calSearch">
+	ή ως <b>ημερολόγιο</b>  
+	
+	
+	
+	 -->
+	
+<!--     <input id="btnSearch2" type="button" value="user memopages search" onclick="getPages( );">    
+-->
+  <br>
+       
+       &nbsp;&nbsp;&nbsp;&nbsp; Αναζήτηση σελίδας  <img src="./css/img/silk/icons/page.png" > ή χρησιμοποίησε τον α/α (αύξοντα αριθμό) της σελίδας
+     <br/>
+      
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="search_terms"  size="60" type="text" value="" onkeydown="if (event.keyCode == 13) document.getElementById('btnSearch').click()" >
+    <input id="btnSearch" type="button" value="Αναζήτηση" onclick="getPages();">    
+    
+
+<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;  μόνο αποτελέσματα από <b>Νομό</b>:
+<select   id="nomos"  onchange="  getCateg( document.getElementById('nomos').value   ) ;   "  >
+   
+   <!-- <option selected="selected" value="-1">Όλη την Ελλάδα</option>
+   <option value="1">Ν. Αττικής</option>
+   <option value="2">Ν. Αιτολωακαρνανίας</option>
+   <option value="3">Ν. Βοιωτίας</option>
+   <option value="4">Ν. Θεσσαλονίκης</option>
+   <option value="5">Ν. Ευρυτανίας</option>
+   <option value="6">Ν. Φθιώτιδας</option>
+   <option value="7">Ν. Φωκίδας</option>
+   <option value="8">Ν. Ευβοίας</option>
+   <option value="9">Ν. Αρκαδίας</option>
+   <option value="10">Ν. Αχαϊας</option>
+   <option value="11">Ν. Ηλείας</option>
+   <option value="12">Ν. Κορινθίας</option>
+   <option value="13">Ν. Λακωνίας</option>
+   <option value="14">Ν. Μεσσηνίας</option>
+   <option value="15">Ν. Ζακύνθου</option>
+   <option value="16">Ν. Κερκύρας</option>
+   <option value="17">Ν. Κεφαλληνίας</option>
+   <option value="18">Ν. Λευκάδας</option>
+   <option value="19">Ν. Aρτας</option>
+   <option value="20">Ν. Θεσπρωτίας</option>
+   <option value="21">Ν. Ιωαννίνων</option>
+   <option value="22">Ν. Πρέβεζας</option>
+   <option value="23">Ν. Καρδίτσας</option>
+   <option value="24">Ν. Λάρισας</option>
+   <option value="25">Ν. Μαγνησίας</option>
+   <option value="26">Ν. Τρικάλων</option>
+   <option value="27">Ν. Γρεβενών</option>
+   <option value="28">Ν. Δράμας</option>
+   <option value="29">Ν. Ημαθίας</option>
+   <option value="30">Ν. Αργολίδας</option>
+   <option value="31">Ν. Καβάλας</option>
+   <option value="32">Ν. Καστοριάς</option>
+   <option value="33">Ν. Κιλκίς</option>
+   <option value="34">Ν. Κοζάνης</option>
+   <option value="35">Ν. Πέλλας</option>
+   <option value="36">Ν. Πιερίας</option>
+   <option value="37">Ν. Σερρών</option>
+   <option value="38">Ν. Φλώρινας</option>
+   <option value="39">Ν. Χαλκιδικής</option>
+   <option value="40">Ν. Έβρου</option>
+   <option value="41">Ν. Ξάνθης</option>
+   <option value="42">Ν. Ροδόπης</option>
+   <option value="43">Ν. Δωδεκανήσων</option>
+   <option value="44">Ν. Κυκλάδων</option>
+   <option value="45">Ν. Λέσβου</option>
+   <option value="46">Ν. Σάμου</option>
+   <option value="47">Ν. Χίου</option>
+   <option value="48">Ν. Ηρακλείου</option>
+   <option value="49">Ν. Λασιθίου</option>
+   <option value="50">Ν. Ρεθύμνου</option>
+   <option value="51">Ν. Χανίων</option>
+ -->
+</select>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; μόνο αποτελέσματα με &nbsp;<b>Θέμα</b>:
+	<select id='pageType'   onchange="  getPages(   )  " ></select>
+     
+  </div> 
+   <br>
+  <div id="page_div" style="height:90%; padding-left:77px; padding-top: 5px; "></div>
+
+</body>
+</html>
+
+
+
+
+</html>

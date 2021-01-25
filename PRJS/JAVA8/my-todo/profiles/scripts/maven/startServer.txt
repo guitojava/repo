@@ -1,0 +1,2 @@
+C:\java\zulu11.37.19-ca-fx-jdk11.0.6-win_i686\bin\java.exe -Dfile.encoding=UTF-8 -jar C:\dev\my-todo\target\my-todo-2.0-SNAPSHOT.jar
+

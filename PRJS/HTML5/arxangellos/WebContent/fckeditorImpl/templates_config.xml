@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+ * FCKeditor - The text editor for Internet - http://www.fckeditor.net
+ * Copyright (C) 2003-2009 Frederico Caldeira Knabben
+ *
+ * == BEGIN LICENSE ==
+ *
+ * Licensed under the terms of any of the following licenses at your
+ * choice:
+ *
+ *  - GNU General Public License Version 2 or later (the "GPL")
+ *    http://www.gnu.org/licenses/gpl.html
+ *
+ *  - GNU Lesser General Public License Version 2.1 or later (the "LGPL")
+ *    http://www.gnu.org/licenses/lgpl.html
+ *
+ *  - Mozilla Public License Version 1.1 or later (the "MPL")
+ *    http://www.mozilla.org/MPL/MPL-1.1.html
+ *
+ * == END LICENSE ==
+ *
+ * This is the sample templates definitions file. It makes the "templates"
+ * command completely customizable.
+ *
+ * See FCKConfig.TemplatesXmlPath in the configuration file.
+-->
+<Templates imagesBasePath="/arxangellos/fckeditorImpl/templateImages/">	
+	<Template title="Profile Image" image="template0.gif">
+		<Description> Γενέθλια  </Description>
+		<Html>
+			<![CDATA[
+				<h1>Γενέθλια</h1>
+        		<p></p>
+				 <table cellspacing="10" cellpadding="10" border="5" style="width: 566px; height: 436px;">
+            <tbody>
+                <tr>
+                    <td><u><span style="font-size: x-large;"><strong>ΟΝΟΜΑ</strong></span></u></td>
+                    <td><u><strong><span style="font-size: x-large;">ΚΑΛΕΣΜΕΝΟΣ </span></strong></u></td>
+                </tr>
+                <tr>
+                    <td>ΓΙΩΡΓΟΣ</td>
+                    <td>ΝΑΙ <img alt="" src="http://localhost/arxangellos/fckeditor/editor/images/smiley/msn/thumbs_up.gif" /><img src="http://localhost/arxangellos/fckeditor/editor/images/smiley/msn/regular_smile.gif" alt="" /></td>
+                </tr>
+                <tr>
+                    <td>ΤΑΣΣΟΣ</td>
+                    <td>ΟΧΙ <img src="http://localhost/arxangellos/fckeditor/editor/images/smiley/msn/thumbs_down.gif" alt="" /><img alt="" src="http://localhost/arxangellos/fckeditor/editor/images/smiley/msn/sad_smile.gif" /></td>
+                </tr>
+                <tr>
+                    <td>ΜΑΡΙΑ</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+				
+			]]>
+		</Html>
+	</Template>
+</Templates>

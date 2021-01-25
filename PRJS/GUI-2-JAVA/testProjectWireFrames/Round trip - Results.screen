@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="2" x="72" y="10" measuredWidth="987" measuredHeight="69">
+    <screen xsi:type="model:Screen" href="assets/Header.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="72" y="909" measuredWidth="980" measuredHeight="41">
+    <screen xsi:type="model:Screen" href="assets/Footer.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="72" y="94" text="Choose your flights" measuredWidth="158" measuredHeight="27">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="5" x="816" y="98" text="Modify search, Flights, Itinerary" measuredWidth="217" measuredHeight="23" selection="1">
+    <font/>
+    <items link="Round%20trip%20-%20JFK%20-%20SFO%20-%20dates.screen" x="0" y="0" width="85" height="23" text="Modify search"/>
+    <items x="103" y="0" width="42" height="23" text="Flights"/>
+    <items x="163" y="0" width="53" height="23" text="Itinerary"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="11" x="72" y="145" width="986" height="152" measuredWidth="986" measuredHeight="152" background="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:Table" id="10" x="112" y="161" text=", Sun\nCountry,Multiple\nAirlines,US\nAirways,Alaska\nAirlines,Delta,American, United,JetBlue,Virgin\nAmerica&#xA;Nonstop,--,From\n$336,From\n$336,From\n$336,From\n$336,From\n$336,From\n$336,From\n$336,From\n$336&#xA;1 stop,From\n%(color:red)$306%,From\n$365,From\n$365,--,From\n$347,--,--,From\n$392,From\n$340" measuredWidth="554" measuredHeight="112" border="false" alpha="0" horizontalLines="true" textAlignment="Center" alternative="#eeeeee" verticalLines="false" header="false">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="39" x="72" y="312" width="986" height="569" measuredWidth="986" measuredHeight="569" background="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:WidgetGroup" id="46" x="84" y="318" measuredWidth="945" measuredHeight="53" name="Result Header">
+    <widgets xsi:type="model:Label" id="6" text="Round trip: New York to San Francisco, Dec 7-10" measuredWidth="432" measuredHeight="30">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="7" x="599" y="1" text="{play} Complete trips" measuredWidth="114" measuredHeight="24" foreground="#666666">
+      <font size="11px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="8" x="724" y="1" text="{play} Individual flights" measuredWidth="130" measuredHeight="24" foreground="#666666">
+      <font size="11px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="9" x="861" y="1" text="{play} Time bars" measuredWidth="84" measuredHeight="24" foreground="#666666">
+      <font size="11px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="14" x="4" y="31" width="65" height="22" text="PRICE {desc}" measuredWidth="65" measuredHeight="22">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="15" x="125" y="31" width="73" height="22" text="AIRLINE {desc}" measuredWidth="73" measuredHeight="22">
+      <font bold="false"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="16" x="324" y="31" width="73" height="22" text="DEPART {desc}" measuredWidth="73" measuredHeight="22">
+      <font bold="false"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="17" x="412" y="31" width="73" height="22" text="ARRIVE {desc}" measuredWidth="73" measuredHeight="22">
+      <font bold="false"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="18" x="496" y="31" width="87" height="22" text="DURATION {desc}" measuredWidth="87" measuredHeight="22">
+      <font bold="false"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="19" x="596" y="31" width="78" height="22" text="FROM/TO {desc}" measuredWidth="78" measuredHeight="22">
+      <font bold="false"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="20" x="684" y="31" width="65" height="22" text="STOPS {desc}" measuredWidth="65" measuredHeight="22">
+      <font bold="false"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="21" x="766" y="31" width="87" height="22" text="ADVISORY {desc}" measuredWidth="87" measuredHeight="22">
+      <font bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Master" id="37" x="87" y="376" measuredWidth="960" measuredHeight="52">
+    <screen xsi:type="model:Screen" href="assets/Round%20trip%20-%20Result%20Row.screen#/"/>
+    <overrides>
+      <widgets ref="2" text="%(color:red)$306%"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="38" x="88" y="433" measuredWidth="960" measuredHeight="52">
+    <screen xsi:type="model:Screen" href="assets/Round%20trip%20-%20Result%20Row.screen#/"/>
+    <overrides>
+      <widgets ref="2" text="$336" link="Round%20Trip%20-%20Itinerary.screen"/>
+      <widgets ref="4" text="Multiple Airlines"/>
+      <widgets ref="5" text="6:00am"/>
+      <widgets ref="6" text="7:05am"/>
+      <widgets ref="7" text="9:31am"/>
+      <widgets ref="8" text="3:40pm"/>
+      <widgets ref="9" text="6h 31m"/>
+      <widgets ref="10" text="5h 35m"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="40" x="88" y="492" measuredWidth="960" measuredHeight="52">
+    <screen xsi:type="model:Screen" href="assets/Round%20trip%20-%20Result%20Row.screen#/"/>
+    <overrides>
+      <widgets ref="2" text="$336" link="Round%20Trip%20-%20Itinerary.screen"/>
+      <widgets ref="4" text="Multiple Airlines"/>
+      <widgets ref="5" text="6:00am"/>
+      <widgets ref="6" text="7:05am"/>
+      <widgets ref="7" text="9:31am"/>
+      <widgets ref="8" text="3:40pm"/>
+      <widgets ref="9" text="6h 31m"/>
+      <widgets ref="10" text="5h 35m"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="41" x="88" y="551" measuredWidth="960" measuredHeight="52">
+    <screen xsi:type="model:Screen" href="assets/Round%20trip%20-%20Result%20Row.screen#/"/>
+    <overrides>
+      <widgets ref="2" text="$336" link="Round%20Trip%20-%20Itinerary.screen"/>
+      <widgets ref="4" text="Multiple Airlines"/>
+      <widgets ref="5" text="6:00am"/>
+      <widgets ref="6" text="7:05am"/>
+      <widgets ref="7" text="9:31am"/>
+      <widgets ref="8" text="3:40pm"/>
+      <widgets ref="9" text="6h 31m"/>
+      <widgets ref="10" text="5h 35m"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="42" x="88" y="610" measuredWidth="960" measuredHeight="52">
+    <screen xsi:type="model:Screen" href="assets/Round%20trip%20-%20Result%20Row.screen#/"/>
+    <overrides>
+      <widgets ref="2" text="$336" link="Round%20Trip%20-%20Itinerary.screen"/>
+      <widgets ref="4" text="Multiple Airlines"/>
+      <widgets ref="5" text="6:00am"/>
+      <widgets ref="6" text="7:05am"/>
+      <widgets ref="7" text="9:31am"/>
+      <widgets ref="8" text="3:40pm"/>
+      <widgets ref="9" text="6h 31m"/>
+      <widgets ref="10" text="5h 35m"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="43" x="88" y="669" measuredWidth="960" measuredHeight="52">
+    <screen xsi:type="model:Screen" href="assets/Round%20trip%20-%20Result%20Row.screen#/"/>
+    <overrides>
+      <widgets ref="2" text="$336" link="Round%20Trip%20-%20Itinerary.screen"/>
+      <widgets ref="4" text="Multiple Airlines"/>
+      <widgets ref="5" text="6:00am"/>
+      <widgets ref="6" text="7:05am"/>
+      <widgets ref="7" text="9:31am"/>
+      <widgets ref="8" text="3:40pm"/>
+      <widgets ref="9" text="6h 31m"/>
+      <widgets ref="10" text="5h 35m"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="44" x="88" y="728" measuredWidth="960" measuredHeight="52">
+    <screen xsi:type="model:Screen" href="assets/Round%20trip%20-%20Result%20Row.screen#/"/>
+    <overrides>
+      <widgets ref="2" text="$336" link="Round%20Trip%20-%20Itinerary.screen"/>
+      <widgets ref="4" text="Multiple Airlines"/>
+      <widgets ref="5" text="6:00am"/>
+      <widgets ref="6" text="7:05am"/>
+      <widgets ref="7" text="9:31am"/>
+      <widgets ref="8" text="3:40pm"/>
+      <widgets ref="9" text="6h 31m"/>
+      <widgets ref="10" text="5h 35m"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="45" x="88" y="787" measuredWidth="960" measuredHeight="52">
+    <screen xsi:type="model:Screen" href="assets/Round%20trip%20-%20Result%20Row.screen#/"/>
+    <overrides>
+      <widgets ref="2" text="$336" link="Round%20Trip%20-%20Itinerary.screen"/>
+      <widgets ref="4" text="Multiple Airlines"/>
+      <widgets ref="5" text="6:00am"/>
+      <widgets ref="6" text="7:05am"/>
+      <widgets ref="7" text="9:31am"/>
+      <widgets ref="8" text="3:40pm"/>
+      <widgets ref="9" text="6h 31m"/>
+      <widgets ref="10" text="5h 35m"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

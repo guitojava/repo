@@ -1,0 +1,33 @@
+<body>
+<form id="reservation" method="get" action="">
+<fieldset class="ui-widget ui-widget-content ui-corner-all">
+<legend class="ui-widget ui-widget-header ui-corner-all">Retro Cinema Reservation</legend>
+<div>
+<label for="customer" class="formlabel">Name</label>
+<input type="text" id="customer" name="customer">
+</div>
+<div>
+<label for="email" class="formlabel">Email</label>
+<input type="email" id="email" name="email">
+</div>
+<div>
+<label for="dob" class="formlabel">Date of Birth</label>
+<input type="text" id="dob" name="dob">
+</div>
+<div>
+<label for="movie" class="formlabel">Choose your Movie</label>
+<div id="movie">
+<label for="movie1"><img src="saucer_men.jpg" alt="Invasion of the Saucer Men" style="width:200px;height:300px;"><br>Invasion of the<br>Saucer Men</label>
+<input type="radio" id="movie1" name="movie">
+<label for="movie2"><img src="plan_9.jpg" alt="Plan 9 from Outer Space" style="width:200px;height:300px;"><br>Plan 9 from<br>Outer Space</label>
+<input type="radio" id="movie2" name="movie">
+<label for="movie3"><img src="refer_madness.jpg" alt="Reefer Madness - Adults Only" style="width:200px;height:300px;"><br>Reefer Madness<br>Adults Only</label>
+<input type="radio" id="movie3" name="movie" class="adult">
+</div>
+</div>
+<div>
+<input type="submit" id="reserve" name="reserve" value="reserve">
+</div>
+</fieldset>
+</form>
+</body>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+
+	<display-name>arxangellos</display-name>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	
+	<session-config>
+		<session-timeout>720</session-timeout>
+	</session-config>
+
+	
+	<!-- run at server start up  -->
+	<listener>
+		<listener-class>com.memopage.servlets.ServletContextLoadUp</listener-class>
+	</listener>
+	
+	
+	<!-- load spring stuff -->		
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/classes/applicationContext.xml</param-value>
+	</context-param>
+	
+
+
+	<!-- KoinAppServlet  -->
+	<servlet>
+		<servlet-name>KoinAppServlet</servlet-name>
+		<servlet-class>com.koin.servlets.KoinAppServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KoinAppServlet</servlet-name>
+		<url-pattern>/KoinAppServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- User Servlet -->
+	<servlet>
+		<servlet-name>UserServlet</servlet-name>
+		<servlet-class>com.memopage.servlets.UserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/UserServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!-- GamesAppServlet Servlet -->
+	<servlet>
+		<servlet-name>MemopageAppServlet</servlet-name>
+		<servlet-class>com.memopage.servlets.MemopageAppServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MemopageAppServlet</servlet-name>
+		<url-pattern>/MemopageAppServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!-- PublicAppServlet  -->
+	<servlet>
+		<servlet-name>PublicAppServlet</servlet-name>
+		<servlet-class>com.memopage.servlets.PublicAppServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PublicAppServlet</servlet-name>
+		<url-pattern>/PublicAppServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!-- HtmlEditorServlet  Servlet -->
+	<servlet>
+		<servlet-name>HtmlEditorServlet</servlet-name>
+		<servlet-class>com.memopage.servlets.HtmlEditorServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HtmlEditorServlet</servlet-name>
+		<url-pattern>/HtmlEditorServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!-- fckeditor -->
+	<servlet>
+		<servlet-name>ConnectorServlet</servlet-name>
+		<servlet-class>net.fckeditor.connector.ConnectorServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ConnectorServlet</servlet-name>
+		<url-pattern>/fckeditor/editor/filemanager/connectors/*</url-pattern>
+	</servlet-mapping>
+
+	<taglib>
+		<taglib-uri>http://java.fckeditor.net</taglib-uri>
+		<taglib-location>/WEB-INF/tld/FCKeditor.tld</taglib-location>
+	</taglib>
+
+
+
+</web-app>

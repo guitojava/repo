@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+
+
+    <changeSet id="1" author="leon">
+        <createTable tableName="boomer">
+            <column autoIncrement="true"  name="id" type="int">
+                <constraints primaryKey="true" />
+            </column>
+            <column name="search_id" type="text"/>
+            <column name="creation_date" type="TIMESTAMP"/>
+            <column name="source_id" type="text"/>
+            <column name="product_id" type="text"/>
+            <column name="product_url" type="text"/>
+            <column name="category" type="text"/>
+            <column name="net_price" type="NUMERIC(6,2)"/>
+            <column name="final_price" type="NUMERIC(6,2)"/>
+            <column name="courier_cost" type="NUMERIC(6,2)"/>
+            <column name="pay_on_delivery_cost" type="NUMERIC(6,2)"/>
+            <column name="shop_name" type="text"/>
+            <column name="item_name" type="text"/>
+            <column name="specs" type="text"/>
+            <column name="item_url" type="text"/>
+            <column name="availability" type="text"/>
+            <column name="areacode" type="text"/>
+            <column name="rating" type="text"/>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="3" x="21" y="484" measuredWidth="980" measuredHeight="41">
+    <screen xsi:type="model:Screen" href="assets/Footer.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="8" x="16" y="8" measuredWidth="987" measuredHeight="69">
+    <screen xsi:type="model:Screen" href="assets/Header.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:TabbedPane" id="9" x="16" y="92" width="451" height="298" text="Round trip, One-way, Multi-city" measuredWidth="451" measuredHeight="298" selection="0">
+    <items link="Round%20trip.screen" x="10" y="0" width="83" height="27" text="Round trip"/>
+    <items link="One%20way.screen" x="93" y="0" width="72" height="27" text="One-way"/>
+    <items x="165" y="0" width="75" height="27" text="Multi-city"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="10" x="583" y="109" width="433" text="Find the best flight deals with Matrix" measuredWidth="433" measuredHeight="18">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="11" x="583" y="129" width="435" height="155" text="Matrix showcases some of the freshest travel search ideas from ITA Software. We’re constantly updating it, so let us know what you think.&#xA;&#xA;Here are just a few of our innovative shopping features:&#xA;* Geo Search – search by airport code, city, or nearby airport selector&#xA;* Interactive Calendar – explore date ranges and find the lowest fares&#xA;* Real-time Filters – focus on flights that suit your preferences&#xA;* Color-coded Time Bars – compare flights at a glance" measuredWidth="435" measuredHeight="155">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="12" x="583" y="389" width="435" text="Note: Tickets cannot be purchased directly from ITA Software" measuredWidth="435" measuredHeight="15">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="13" x="583" y="405" width="433" height="49" text="If you find a fare you like, you can give the information from this site to your travel agent or airline when making a booking. " measuredWidth="433" measuredHeight="49">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

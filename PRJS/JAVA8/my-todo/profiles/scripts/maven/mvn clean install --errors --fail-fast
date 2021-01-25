@@ -1,0 +1,1 @@
+mvn clean install --errors --fail-fast --lax-checksums -DskipTests=true

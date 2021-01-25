@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="2" x="72" y="10" measuredWidth="987" measuredHeight="69">
+    <screen xsi:type="model:Screen" href="assets/Header.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="72" y="923" measuredWidth="980" measuredHeight="41">
+    <screen xsi:type="model:Screen" href="assets/Footer.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="72" y="94" text="Choose your flights" measuredWidth="158" measuredHeight="27">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="5" x="816" y="98" text="Modify search, Flights, Itinerary" measuredWidth="217" measuredHeight="23" selection="1">
+    <font/>
+    <items link="One%20way%20-%20JFK%20-%20SFO%20-%20date.screen" x="0" y="0" width="85" height="23" text="Modify search"/>
+    <items x="103" y="0" width="42" height="23" text="Flights"/>
+    <items x="163" y="0" width="53" height="23" text="Itinerary"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="11" x="72" y="145" width="986" height="168" measuredWidth="986" measuredHeight="168" background="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:Table" id="10" x="112" y="161" text=", Sun\nCountry,Delta,American,United,US\nAirways,Virgin\nAmerica,Alaska\nAirlines,JetBlue,Multiple\nAirlines&#xA;Nonstop,--,From\n$168,From\n$168,From\n$168,From\n$168,From\n$168,From\n$168,From\n$168,--&#xA;1 stop,From\n%(color:red)$153%,From\n$179,From\n$179,From\n$246,From\n$173,From\n$172,From\n$403,From\n$224,From\n$241&#xA;2 stops,--,From\n$247,From\n$315,From\n$272,From\n$294,--,--,--,From\n$225" measuredWidth="554" measuredHeight="148" border="false" alpha="0" horizontalLines="true" textAlignment="Center" alternative="#eeeeee" verticalLines="false" header="false">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="39" x="72" y="326" width="986" height="569" measuredWidth="986" measuredHeight="569" background="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:WidgetGroup" id="46" x="84" y="332" measuredWidth="945" measuredHeight="53" name="Result Header">
+    <widgets xsi:type="model:Label" id="6" text="One-way: New York to San Francisco - Fri, Dec 7" measuredWidth="428" measuredHeight="30">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="7" x="599" y="1" text="{play} Complete trips" measuredWidth="114" measuredHeight="24" foreground="#666666">
+      <font size="11px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="8" x="724" y="1" text="{play} Individual flights" measuredWidth="130" measuredHeight="24" foreground="#666666">
+      <font size="11px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="9" x="861" y="1" text="{play} Time bars" measuredWidth="84" measuredHeight="24" foreground="#666666">
+      <font size="11px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="14" x="4" y="31" width="65" height="22" text="PRICE {desc}" measuredWidth="65" measuredHeight="22">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="15" x="125" y="31" width="73" height="22" text="AIRLINE {desc}" measuredWidth="73" measuredHeight="22">
+      <font bold="false"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="16" x="324" y="31" width="73" height="22" text="DEPART {desc}" measuredWidth="73" measuredHeight="22">
+      <font bold="false"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="17" x="412" y="31" width="73" height="22" text="ARRIVE {desc}" measuredWidth="73" measuredHeight="22">
+      <font bold="false"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="18" x="496" y="31" width="87" height="22" text="DURATION {desc}" measuredWidth="87" measuredHeight="22">
+      <font bold="false"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="19" x="596" y="31" width="78" height="22" text="FROM/TO {desc}" measuredWidth="78" measuredHeight="22">
+      <font bold="false"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="20" x="684" y="31" width="65" height="22" text="STOPS {desc}" measuredWidth="65" measuredHeight="22">
+      <font bold="false"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="21" x="766" y="31" width="87" height="22" text="ADVISORY {desc}" measuredWidth="87" measuredHeight="22">
+      <font bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Master" id="47" x="84" y="398" measuredWidth="960" measuredHeight="52">
+    <screen xsi:type="model:Screen" href="assets/One%20way%20-%20Result%20Row.screen#/"/>
+    <overrides>
+      <widgets ref="2" text="%(color:red)$153%" link="One%20Way%20-%20Itinerary.screen"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="48" x="84" y="456" measuredWidth="960" measuredHeight="52">
+    <screen xsi:type="model:Screen" href="assets/One%20way%20-%20Result%20Row.screen#/"/>
+    <overrides>
+      <widgets ref="4" text="United"/>
+      <widgets ref="5" text="6:00am"/>
+      <widgets ref="7" text="9:31am"/>
+      <widgets ref="9" text="6h 31m"/>
+      <widgets ref="2" text="$168"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="50" x="84" y="514" measuredWidth="960" measuredHeight="52">
+    <screen xsi:type="model:Screen" href="assets/One%20way%20-%20Result%20Row.screen#/"/>
+    <overrides>
+      <widgets ref="4" text="United"/>
+      <widgets ref="5" text="6:00am"/>
+      <widgets ref="7" text="9:31am"/>
+      <widgets ref="9" text="6h 31m"/>
+      <widgets ref="2" text="$168"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="51" x="84" y="572" measuredWidth="960" measuredHeight="52">
+    <screen xsi:type="model:Screen" href="assets/One%20way%20-%20Result%20Row.screen#/"/>
+    <overrides>
+      <widgets ref="4" text="United"/>
+      <widgets ref="5" text="6:00am"/>
+      <widgets ref="7" text="9:31am"/>
+      <widgets ref="9" text="6h 31m"/>
+      <widgets ref="2" text="$168"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="52" x="84" y="630" measuredWidth="960" measuredHeight="52">
+    <screen xsi:type="model:Screen" href="assets/One%20way%20-%20Result%20Row.screen#/"/>
+    <overrides>
+      <widgets ref="4" text="United"/>
+      <widgets ref="5" text="6:00am"/>
+      <widgets ref="7" text="9:31am"/>
+      <widgets ref="9" text="6h 31m"/>
+      <widgets ref="2" text="$168"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="53" x="84" y="688" measuredWidth="960" measuredHeight="52">
+    <screen xsi:type="model:Screen" href="assets/One%20way%20-%20Result%20Row.screen#/"/>
+    <overrides>
+      <widgets ref="4" text="United"/>
+      <widgets ref="5" text="6:00am"/>
+      <widgets ref="7" text="9:31am"/>
+      <widgets ref="9" text="6h 31m"/>
+      <widgets ref="2" text="$168"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="54" x="84" y="746" measuredWidth="960" measuredHeight="52">
+    <screen xsi:type="model:Screen" href="assets/One%20way%20-%20Result%20Row.screen#/"/>
+    <overrides>
+      <widgets ref="4" text="United"/>
+      <widgets ref="5" text="6:00am"/>
+      <widgets ref="7" text="9:31am"/>
+      <widgets ref="9" text="6h 31m"/>
+      <widgets ref="2" text="$168"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="55" x="84" y="804" measuredWidth="960" measuredHeight="52">
+    <screen xsi:type="model:Screen" href="assets/One%20way%20-%20Result%20Row.screen#/"/>
+    <overrides>
+      <widgets ref="4" text="United"/>
+      <widgets ref="5" text="6:00am"/>
+      <widgets ref="7" text="9:31am"/>
+      <widgets ref="9" text="6h 31m"/>
+      <widgets ref="2" text="$168"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

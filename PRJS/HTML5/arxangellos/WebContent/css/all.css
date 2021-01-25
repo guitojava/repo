@@ -1,0 +1,368 @@
+
+
+:focus {
+    outline: none!important;
+}
+
+
+.x-btn-text, .x-window-header-text, .x-grid3-cell-inner, .x-grid3-hd-inner  ,
+
+.x-form-text, textarea.x-form-field , .x-tab-strip , span.x-tab-strip-text, .x-panel-header {
+                font-size:   11px !important;
+                font-family: verdana,georgia, tohoma   !important;
+
+}
+
+
+/* to make row expander text selectable INBOX */
+.x-grid3-row td, .x-grid3-summary-row td, .x-grid3-row-body {
+    -moz-user-select: text !important;
+    -khtml-user-select: text !important;
+}
+
+
+.x-custgrid3-row td {
+line-height: 16px;
+font-size: 14px !important;
+}
+
+/*
+.x-custgrid4-row .x-grid3-row-over {
+    background-color:white;
+}
+
+*/
+
+
+
+.icon-copy{ background-image:url(./img/silk/icons/page_white_copy.png) ! important;
+}
+
+
+.icon-page{ background-image:url(./img/silk/icons/page.png) ! important;
+}
+
+.icon-camera {
+	background-image:url(./img/silk/icons/camera_add.png) ! important;
+}
+
+.icon-config{
+	background-image:url(./img/silk/icons/cog.png) ! important;
+}
+
+.icon-euro{ background-image:url(./img/silk/icons/money_euro.png) ! important;
+}
+
+.icon-bell{ background-image:url(./img/silk/icons/bell.png) ! important;
+}
+
+.icon-msg{ background-image:url(./img/silk/icons/page_white_edit.png) ! important;
+}
+
+.icon-user-add{ background-image:url(./img/silk/icons/user_add.png) ! important;
+}
+ 
+.icon-video {
+	background-image:url(./img/silk/icons/film.png) ! important;
+}
+ 
+  .icon-newspaper{ background-image:url(./img/silk/icons/newspaper.png) ! important;
+}
+ 
+ .icon-chat{ background-image:url(./img/silk/icons/emoticon_happy.png) ! important;
+}
+ .icon-trophy{ background-image:url(./img/silk/icons/trophy16.png) ! important;
+}
+
+.icon-edit {
+	background-image:url(./img/silk/icons/pencil.png) ! important;
+}
+
+.icon-teams {
+	background-image:url(./img/silk/icons/teams.png) ! important;
+}
+
+/*  
+// Icon Classes */
+.icon-field{ background-image:url(./img/silk/icons/field.png) ! important;
+}
+
+.icon-tick{ background-image:url(./img/silk/icons/tick.png) ! important;
+}
+
+.icon-sound{ background-image:url(./img/silk/icons/sound.png) ! important;
+}
+
+.icon-tel{ background-image:url(./img/silk/icons/telephone.png) ! important;
+}
+
+.icon-cancel{ background-image:url(./img/silk/icons/cancel.png) ! important;
+}
+
+.icon-male{ background-image:url(./img/silk/icons/male.png) ! important;
+}
+
+.icon-female{ background-image:url(./img/silk/icons/female.png) ! important;
+}
+
+.icon-car{ background-image:url(./img/silk/icons/car.png) ! important;
+}
+
+
+.icon-signup{ background-image:url(./img/silk/icons/pencil_add.png) ! important;
+}
+
+.icon-logout{ background-image:url(./img/silk/icons/door.png) ! important;
+}
+
+.icon-login{ background-image:url(./img/silk/icons/door_in.png) ! important;
+}
+
+.icon-user{ background-image:url(./img/silk/icons/user.png) ! important;
+}
+
+.icon-user-red{ background-image:url(./img/silk/icons/user_red.png) ! important;
+}
+
+.icon-user-green{ background-image:url(./img/silk/icons/user_green.png) ! important;
+}
+
+.icon-email{ background-image:url(./img/silk/icons/email.png) ! important;
+}
+
+.icon-lock{ background-image:url(./img/silk/icons/lock.png) ! important;
+}
+
+.icon-soccer{ background-image:url(./img/silk/icons/sport_soccer.png) ! important;
+}
+
+.icon-group{ background-image:url(./img/silk/icons/group.png) ! important;
+}
+
+.icon-allgroup{ background-image:url(./img/silk/icons/report_user.png) ! important;
+}
+
+.icon-key{ background-image:url(./img/silk/icons/key.png) ! important;
+}
+
+.icon-ditectlink{ background-image:url(./img/silk/icons/world_link.png) ! important;
+}
+
+.icon-world{ background-image:url(./img/silk/icons/world.png) ! important;
+}
+
+.icon-date{ background-image:url(./img/silk/icons/date.png) ! important;
+}
+
+.icon-asterisk{ background-image:url(./img/silk/icons/asterisk_orange.png) ! important;
+}
+
+
+.icon-asteriskyellow{ background-image:url(./img/silk/icons/asterisk_yellow.png) ! important;
+}
+
+.icon-save{ background-image:url(./img/silk/icons/table_save.png) ! important;
+}
+.icon-run{ background-image:url(./img/silk/icons/application_go.png) ! important;
+}
+.icon-star{ background-image:url(./img/silk/icons/award_star_gold_1.png) ! important;
+}
+.icon-zoom{ background-image:url(./img/silk/icons/zoom.png) ! important;
+}
+.icon-zoom-in{ background-image:url(./img/silk/icons/zoom_in.png) ! important;
+}
+.icon-zoom-out{ background-image:url(./img/silk/icons/zoom_out.png) ! important;
+}
+
+.icon-print{ background-image:url(./img/silk/icons/printer.png) ! important;
+}
+.icon-edit-record{ background-image:url(./img/silk/icons/table_edit.png) ! important;
+}
+.icon-accept {
+	background-image:url(./img/silk/icons/accept.png) ! important;
+}
+.icon-left {
+	background-image:url(./img/silk/icons/arrow_left.png) ! important;
+}
+.icon-right {
+	background-image:url(./img/silk/icons/arrow_right.png) ! important;
+}
+
+.icon-up-down {
+	background-image:url(./img/silk/icons/arrow_up_down.png) ! important;
+}
+
+.icon-info {
+	background-image:url(./img/silk/icons/information.png) ! important;
+}
+.icon-search {
+	background-image:url(./img/silk/icons/book_open.png) ! important;
+}
+.icon-options {
+	background-image:url(./img/silk/icons/wand.png) ! important;
+}
+.icon-selections {
+	background-image:url(./img/silk/icons/pencil.png) ! important;
+}
+
+
+.icon-plus {
+	background-image:url(./img/silk/icons/add.png) ! important;
+}
+.icon-minus {
+	background-image:url(./img/silk/icons/delete.png) ! important;
+}
+.icon-cross {
+	background-image:url(./img/silk/icons/cross.png) ! important;
+}
+
+.icon-house {
+	background-image:url(./img/silk/icons/house.png) ! important;
+}
+
+
+.icon-del-tab {
+	background-image:url(./img/silk/icons/tab_delete.png) ! important;
+}
+
+.icon-new {
+	background-image:url(./img/silk/icons/new.png) ! important;
+}
+
+.icon-newbook {
+	background-image:url(./img/silk/icons/new_book.png) ! important;
+}
+
+
+.icon-go {
+	background-image:url(./img/silk/icons/script_go.png) ! important;
+}
+
+.icon-flagyellow {
+	background-image:url(./img/silk/icons/flag_yellow.png) ! important;
+}
+
+
+.icon-flagred {
+	background-image:url(./img/silk/icons/flag_red.png) ! important;
+}
+
+
+.icon-flaggreen {
+	background-image:url(./img/silk/icons/flag_green.png) ! important;
+}
+
+.icon-flagblue {
+	background-image:url(./img/silk/icons/flag_blue.png) ! important;
+}
+
+.icon-flagpurple{
+	background-image:url(./img/silk/icons/flag_purple.png) ! important;
+}
+
+.icon-map{
+	background-image:url(./img/silk/icons/map.png) ! important;
+}
+
+.icon-help{
+	background-image:url(./img/silk/icons/help.png) ! important;
+}
+
+
+
+.icon-refresh{
+	background-image:url(./img/silk/icons/arrow_refresh.png) ! important;
+}
+
+/*  Icon Classes end */
+
+
+
+
+
+
+
+
+
+
+a img {
+	border: 0;
+}
+
+a.colorlink:link {
+	color: 	blue ;
+	text-decoration: none;
+}
+
+a.colorlink:visited {
+	color: 	blue; 
+	text-decoration: none;
+}
+
+a.colorlinkhover {
+	text-decoration: none;
+}
+
+
+
+
+a.whitelink:active {
+	text-decoration: none;
+	color: 	white ;
+}
+
+
+a.whitelink:link {
+	color: 	white;
+	text-decoration: none;
+}
+
+a.whitelink:visited {
+	color: 	gray ;
+	text-decoration: none;
+}
+
+a.whitelinkhover {
+	text-decoration: none;
+}
+
+a.whitelink:active {
+	text-decoration: none;
+	color: 	lime ;
+}
+
+
+
+#loading-mask {
+  position: absolute;
+  left:     0;
+  top:      0;
+  width:    100%;
+  height:   100%;
+  z-index:  20000;
+  background-color: white;
+}
+
+#loading {
+  position: absolute;
+  left:     50%;
+  top:      50%;
+  padding:  2px;
+  z-index:  20001;
+  height:   auto;
+  margin:   -35px 0 0 -30px;
+}
+
+#loading .loading-indicator {
+  background: url(loading.gif) no-repeat;
+  color:      #555;
+  font:       bold 13px tahoma,arial,helvetica;
+  padding:    8px 42px;
+  margin:     0;
+  text-align: center;
+  height:     auto;
+}
+
+
+
+

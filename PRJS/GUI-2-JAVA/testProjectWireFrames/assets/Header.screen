@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Label" id="1" x="135" y="30" text="Matrix Airfare Search" measuredWidth="234" measuredHeight="34">
+    <font size="21px"/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="2" x="809" y="10" text="{country-flag1} English, {help} Help, Careers" measuredWidth="188" measuredHeight="24">
+    <font size="11px"/>
+    <items x="0" y="0" width="61" height="24" text="{country-flag1} English"/>
+    <items x="79" y="0" width="46" height="24" text="{help} Help"/>
+    <items x="143" y="0" width="44" height="24" text="Careers"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="3" x="10" y="13" measuredWidth="115" measuredHeight="66" src="italogo_small.gif" grayscale="true"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

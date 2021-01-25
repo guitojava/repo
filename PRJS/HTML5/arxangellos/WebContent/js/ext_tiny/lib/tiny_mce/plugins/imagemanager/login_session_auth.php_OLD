@@ -1,0 +1,19 @@
+<?php
+	
+			
+// Set session
+session_start();
+$_SESSION['isLoggedIn'] = true;		
+
+
+// Override any config option
+//$_SESSION['imagemanager.filesystem.rootpath'] = 'some path';
+
+
+// Redirect
+header("location: " . $_POST['return_url']);
+die;
+	
+	
+?>
+

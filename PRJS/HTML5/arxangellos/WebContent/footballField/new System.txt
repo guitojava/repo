@@ -1,0 +1,45 @@
+field object 
+==============
+
+fieldName: string
+fieldLogo:  string
+
+mode : number    edit(1)/view(0)
+showNames : number yes(1)/ no(0)
+showNumbers:  number yes(1)/no(0)
+showPositions:  number yes(1)/no(0)
+
+team1Name : string
+team1Image : string
+team1Score: number (0-99)
+team1Color : color code
+
+team2Name : string
+team2Image: string
+team2Score: number (0-99)
+team2Color : color code
+
+gameStatus:  game played(1) / not played (0)
+playersListTeam1:   Array of Player
+playersListTeam2:  Array of Player
+
+topAdvertisments : string HTML
+bottomAdvertisments : string HTML
+leftAdvertisments :stringHTML
+rightAdvertisments : string HTML
+
+
+Player Object
+=========
+x: int
+y: int
+name: string
+positionCode: String
+shirtNumber : number 0-99
+playerImage: string
+
+
+note all images will be the file name on the server in the following format     /mipclubs/userfiles/logo.png
+
+if in view mode draging must be disabled and no changes allowed in table
+if edit mode dragging allowed and table data changes allowed 

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+
+    <changeSet id="1" author="leon">
+
+        <createTable tableName="appointment">
+            <column name="id" type="text"><constraints primaryKey="true"/></column>
+            <column name="title" type="text"/>
+            <column name="description" type="text"/>
+            <column name="start_dt" type="text"/>
+            <column name="end_dt" type="text"/>
+            <column name="color" type="text"/>
+            <column name="customer_id" type="text"/>
+            <column name="staff_id" type="text"/>
+            <column name="net_price" type="NUMERIC(6,2)"/>
+            <column name="final_price" type="NUMERIC(6,2)"/>
+        </createTable>
+
+        <createTable tableName="customer">
+            <column name="id" type="text"><constraints primaryKey="true"/></column>
+            <column name="full_name" type="text"/>
+            <column name="phone" type="text"/>
+            <column name="email" type="text"/>
+            <column name="date_of_birth" type="text"/>
+            <column name="notes" type="text"/>
+        </createTable>
+
+        <createTable tableName="staff">
+            <column name="id" type="text"><constraints primaryKey="true"/></column>
+            <column name="full_name" type="text"/>
+            <column name="phone" type="text"/>
+            <column name="email" type="text"/>
+            <column name="color" type="text"/>
+            <column name="date_of_birth" type="text"/>
+            <column name="notes" type="text"/>
+        </createTable>
+
+
+    </changeSet>
+</databaseChangeLog>
