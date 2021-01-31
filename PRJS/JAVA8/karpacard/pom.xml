@@ -38,7 +38,7 @@
         <!-- libs -->
         <postgresql.version>9.4.1211</postgresql.version>
         <httpclient.version>4.5.5</httpclient.version>
-        <commons-beanutils.version>1.9.3</commons-beanutils.version>
+        <commons-beanutils.version>1.9.4</commons-beanutils.version>
         <shedlock-spring.version>0.18.2</shedlock-spring.version>
 
         <lombok.version>1.16.20</lombok.version>
